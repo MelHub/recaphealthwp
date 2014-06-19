@@ -172,6 +172,7 @@
 		var $window = $(window),
 			$body = $('body'),
 			$header = $('#header'),
+			$headerNav = $('#headerNav'),
 			_IEVersion = (navigator.userAgent.match(/MSIE ([0-9]+)\./) ? parseInt(RegExp.$1) : 99),
 			_isTouch = !!('ontouchstart' in window),
 			_isMobile = !!(navigator.userAgent.match(/(iPod|iPhone|iPad|Android|IEMobile)/));
