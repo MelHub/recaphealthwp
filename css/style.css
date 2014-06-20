@@ -1251,7 +1251,7 @@
 	#header
 	{
 		position: relative;
-		/*background-image: url('../images/header1.jpg');*/
+		background-image: url('images/medical_billing.jpg');
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -1269,11 +1269,11 @@
 			.homepage #header .overlay
 			{
 				content: '';
-/*				background-image: url('images/sample1.jpg');
-*/				background-repeat: no-repeat;
+				
+				background-repeat: no-repeat;
 				background-position: top right;
-/*				background: #1C0920;
-*/			display: block;
+				background: #1C0920;
+			display: block;
 				position: absolute;
 				left: 0;
 				top: 0;
@@ -1683,11 +1683,15 @@ article.team-pic img {
 	height: 100%;
 }
 
-div.team-extended-bio {
+.team-extended-bio {
 	border: #59585a solid 1px;
 	padding: 1em;
 	border-radius: .5em;
 }	
+
+.team-extended-bio a {
+	margin-right: .6em;
+}
 
 .team-pic-container
 {
