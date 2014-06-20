@@ -1650,11 +1650,14 @@
 /*********************************************************************************/
 
 div.team-extended-bio {
-	border: .07em solid rgba(50, 50, 50, 0.22);
-	/* background-color: rgb(253, 253, 253); */
-	padding: .7em .7em .2em .7em;
-	border-radius: 8px;
+	border: #59585a solid 1px;
+	padding: 1em;
+	border-radius: .5em;
 }	
+
+.team-extended-bio h5 {
+	float: right;
+}
 
 .team-pic h4{
 	font-size: 0.9em;
