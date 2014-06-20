@@ -696,7 +696,7 @@
 			cursor: pointer;
 			outline: 0;
 			border: 1px solid rgba(140, 196, 66, 0.8);
-			background-color: rgba(140, 196, 66, 0.83);
+			background-color: rgba(53, 157, 216, 1);
 		}
 
 			.button:hover
@@ -1272,8 +1272,8 @@
 				
 				background-repeat: no-repeat;
 				background-position: top right;
-				background: #1C0920;
-			display: block;
+				background: rgba(96, 96, 96, .6);
+				display: block;
 				position: absolute;
 				left: 0;
 				top: 0;
