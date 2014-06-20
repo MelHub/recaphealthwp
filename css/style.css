@@ -2,6 +2,8 @@
 
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
 @import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 /*
 	Helios 1.5 by HTML5 UP
 	html5up.net | @n33co
@@ -31,14 +33,16 @@
 	body,input,textarea,select
 	{
 		font-size: 15pt;
-		font-family: 'Lato', sans-serif;
+		/*font-family: 'Josefin Sans', sans-serif;*/
+		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
 	}
 
 	h1,h2,h3,h4,h5,h6
 	{
-		font-weight: 400;
-		color: rgb(84, 84, 84);
+		/*font-weight: 700;*/
+		/* ---- dark grey */
+		color: rgb(84, 84, 84); 
 		line-height: 1.25em;
 	}
 	
@@ -57,17 +61,30 @@
 	h2
 	{
 		font-size: 2.85em;
+		text-transform: uppercase;
+		font-weight: 900;
+		letter-spacing: 0.1em;
+		text-shadow: 2px 3px rgba(239, 239, 239, 0.46);
 	}
 	
 	h3
 	{
 		font-size: 1.25em;
+		text-transform: uppercase;
+		letter-spacing: .1em;
 	}
 	
 	h4
 	{
 		font-size: 1em;
 		margin: 0 0 0.25em 0;
+	}
+
+	h5 
+	{
+		font-weight: bold;
+		/*font-size: 2em;*/
+		
 	}
 	
 	.byline
@@ -87,7 +104,8 @@
 	strong, b
 	{
 		font-weight: 400;
-		color: #483949;
+		color: #fff;
+		text-shadow: 2px 2px rgba(89, 88, 90, 0.51);
 	}
 
 	em, i
@@ -100,6 +118,7 @@
 		color: inherit;
 		border-bottom: solid 1px rgba(128,128,128,0.15);
 		text-decoration: none;
+		text-transform: uppercase;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-o-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -142,6 +161,7 @@
 	p
 	{
 		text-align: justify;
+		line-height: 1.5em;
 	}
 
 	br.clear
@@ -498,6 +518,7 @@
 			form select,
 			form textarea
 			{
+				color: rgba(140, 196, 66, 0.71);
 				display: block;
 				box-shadow: inset 0 0 0 1px #e6e6e6;
 				background: #f8f8f8;
@@ -529,6 +550,7 @@
 				form select:focus,
 				form textarea:focus
 				{
+					box-shadow: inset 0 0 0 1px rgba(140, 196, 66, 0.77);
 				}
 				
 				form textarea
@@ -574,7 +596,7 @@
 					color: rgba(33, 34, 32, 0.77);
 					/* text-align: center; */
 					border-radius: 0.2em;
-					font-size: .9em;
+					font-size: .7em;
 					text-decoration: none;
 					padding: 0.45em 2em 0.45em 2em;
 					border: 0;
@@ -582,6 +604,9 @@
 					outline: 0;
 					border: 1px solid rgba(147, 145, 145, 0.26);
 					float: right;
+					margin-top: 1em;
+					margin-left: .5em;
+					font-size: 1em;
 				}
 			
 	/* Tables */
@@ -643,13 +668,14 @@
 			border: 0;
 			cursor: pointer;
 			outline: 0;
-			border: 1px solid rgb(153, 147, 147);
+			border: 1px solid rgba(140, 196, 66, 0.8);
+			background-color: rgba(140, 196, 66, 0.83);
 		}
 
 			.button:hover
 			{
 				color: #fff;
-				background: #ef8376;
+				background: rgba(140, 196, 66, 1);
 			}
 			
 			.button:active
@@ -1197,7 +1223,7 @@
 	#header
 	{
 		position: relative;
-		/*background-image: url('../images/header.jpg');*/
+		/*background-image: url('../images/header1.jpg');*/
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -1215,8 +1241,11 @@
 			.homepage #header .overlay
 			{
 				content: '';
+/*				background-image: url('images/sample1.jpg');
+*/				background-repeat: no-repeat;
+				background-position: top right;
 /*				background: #1C0920;
-*/				display: block;
+*/			display: block;
 				position: absolute;
 				left: 0;
 				top: 0;
@@ -1342,7 +1371,7 @@
 		z-index: 1;
 		overflow: hidden;
 		background-color: rgba(247, 247, 247, 1);
-		border-bottom: 1px solid rgba(255, 255, 255, 0.39);
+		border-bottom: 1px solid rgba(215, 215, 215, 0.81);
 		color: rgb(111, 99, 99);
 		font-weight: 100;
 		font-size: .9em;
@@ -1420,6 +1449,7 @@
 					text-decoration: none;
 					border: 0;
 					outline: 0;
+					letter-spacing: 0.04em;
 				}
 
 				#nav > ul > li > a:hover 
@@ -1624,11 +1654,55 @@ div.team-extended-bio {
 	/* background-color: rgb(253, 253, 253); */
 	padding: .7em .7em .2em .7em;
 	border-radius: 8px;
-}		
+}	
+
+.team-pic h4{
+	font-size: 0.9em;
+}	
 
 .hidden {
 	display: none;
 }
+
+/*********************************************************************************/
+/*          Advisors                                                             */
+/*********************************************************************************/
+	
+/*	.advisory-board 
+	{
+		border: 0.09em solid grey;
+		border-radius: .3em;
+	}*/
+
+	ul.advisory-board
+	{
+		padding: 1em;
+		border: 0.9em solid grey;
+	}
+
+	ul.advisorsCan,
+	ul.advisorsUs 
+	{
+	font-size: .7em;
+	margin-bottom: 1em;
+	}
+
+	ul.advisorsCan
+	{
+		float: left;
+		text-align: right;
+	}
+
+	ul.advisorsUs
+	{
+		float: right;
+	}
+
+	ul.advisorsCan li,
+	ul.advisorsUs li 
+	{
+	margin-bottom: -0.99em;
+	}
 
 /*********************************************************************************/
 /* About Recap                                                                   */
