@@ -296,7 +296,7 @@
 
 		section.special > header:first-child 
 		{
-			padding: 5em 0 0 0;
+			padding: 5em 0 3.5em 0;
 		}
 
 	/* ------------ Below: trying to get some sexy lil green lines next to the headers; */
@@ -566,6 +566,17 @@
 				-ms-appearance: none;
 				appearance: none;
 			}
+
+				section#login input:last-child 
+				{
+					width: 7em;
+					float: right;
+					background-color: rgba(140, 196, 66, 0.71);
+					color: white;
+					font-size: .8em;
+					letter-spacing: 0.1em;
+					padding: .4em;
+				}
 
 				form input.text:hover,
 				form select:hover,
@@ -1591,6 +1602,12 @@
 	font-size: .8em;
 	}
 
+	section#quote 
+	{
+	border-top: 2px solid rgba(140, 196, 66, 0.8); 
+	border-bottom: 2px solid rgba(140, 196,66,0.8);
+	}
+
 
 
 /*********************************************************************************/
@@ -1767,7 +1784,11 @@ article.team-pic img {
 	.about-recap-right p,
 	.about-recap-left p
 	{
-		margin-top: 16%;
+		margin-top: 8%;
+		font-size: 2em;
+		text-align: left;
+		color: rgb(246, 246, 246);
+		text-shadow: 2px 2px rgba(239, 239, 239, 0.2);
 	}
 
 	.about-recap-right img,
@@ -1783,6 +1804,14 @@ article.team-pic img {
 	{
 		float: left;
 	}	
+
+	.green-bg 
+	{
+		background-color: rgba(140, 196, 66, 0.25);
+		background: url('images/congruent_outline.png');
+		background-attachment: fixed;
+		border-bottom: 1px solid rgba(163, 163, 163, 1);
+	}
 
 /*********************************************************************************/
 /* Vision                                                                        */
@@ -1863,9 +1892,9 @@ section#vision h4
 /* Login                                                                         */
 /*********************************************************************************/
 
-	section#login header
+	section#login 
 	{
-/*		float: right;*/
+		margin-top: 6em;
 	}	
 
 	section#login h5
@@ -1880,7 +1909,7 @@ section#vision h4
 		box-shadow: inset 0 0 0 1px #e6e6e6;
 		background: rgba(248, 248, 248, 0.12);
 		width: 100%;
-		padding: 0.25em 1em 0.25em 1em;
+		padding: 1em;
 		border-radius: 0.25em;
 		border: 0;
 		-moz-transition: all 0.25s ease-in-out;
