@@ -1754,6 +1754,17 @@ article.team-pic img {
 		border-radius: .3em;
 	}*/
 
+.advisor-extended
+{
+	border: #59585a solid 1px;
+	padding: 1em;
+	border-radius: .5em;
+}	
+
+.advisor-extended a {
+	margin-right: .6em;
+}
+
 	ul.advisory-board
 	{
 		padding: 1em;
@@ -2128,3 +2139,14 @@ section#vision h4
 	padding: 1em;
 	border-radius: .5em;
 	}
+
+	.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */

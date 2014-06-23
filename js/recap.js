@@ -27,15 +27,17 @@ var portfolio = {
   portfolioShow: function() {
     var company = $(this),
         companyID = company.data('logo'),
-        logo = $("#" + companyID);
+        logo = $("#"+companyID);
+
 
     logo.siblings('.portfolio-extended').addClass('hidden');
-    logo.removeClass('hidden');
+    // logo.removeClass('hidden');
+    logo.css('width', '100%');
   }
 };
 
 $(function() {
   $(".portfolio-item").hover(portfolio.portfolioShow, function() {
-    console.log('hey');
+
   }); 
 });
