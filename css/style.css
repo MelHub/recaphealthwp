@@ -313,7 +313,7 @@
 
 		section.special > header:first-child 
 		{
-			padding: 5em 0 3.5em 0;
+			padding: 	5em 0 2em 0;
 		}
 
 	/* ------------ Below: trying to get some sexy lil green lines next to the headers; */
@@ -341,30 +341,6 @@
 
 			margin-top: -7%;
 		}*/
-
-
-		article.news
-		{
-			border: 1px solid rgb(235, 228, 228);
-			padding: 1em;
-			border-radius: 1em;
-		}
-
-		article.news h6 {
-			font-size: .6em;
-			letter-spacing: .07em;
-			float: right;
-			}
-
-		article.news p 
-		{
-			font-size: .8em;
-			line-height: 1.2em;
-		}
-
-
-
-
 
 
 	/* Images */
@@ -565,9 +541,9 @@
 				color: rgba(140, 196, 66, 0.71);
 				display: block;
 				box-shadow: inset 0 0 0 1px #e6e6e6;
-				background: #f8f8f8;
+				background: #DCD7D7;
 				width: 100%;
-				font-size: .8em;
+				font-size: 1em;
 				padding: 0.3em .5em 0.3em 1em;
 				margin-bottom: .2em;
 				border-radius: 0.25em;
@@ -1650,6 +1626,42 @@
 		padding: 10em 0 10em 0;
 	}		
 
+		article.news
+	{
+		border: 1px solid rgb(235, 228, 228);
+		padding: 1em;
+		border-radius: 1em;
+	}
+
+	article.news h6 {
+		font-size: .6em;
+		letter-spacing: .07em;
+		float: right;
+		}
+
+	article.news a h5
+	{
+	text-transform: capitalize;
+	}
+
+
+	article.news a:hover h5 
+	{
+		color: rgba(140, 196, 66, 0.8);
+		-moz-transition: all 0.25s ease-in-out;
+		-webkit-transition: all 0.25s ease-in-out;
+		-o-transition: all 0.25s ease-in-out;
+		-ms-transition: all 0.25s ease-in-out;
+		transition: all 0.25s ease-in-out;
+	}
+
+		article.news p 
+	{
+		font-size: .8em;
+		line-height: 1.2em;
+	}
+
+
 
 /*********************************************************************************/
 /* Content                                                                       */
@@ -1759,6 +1771,7 @@ article.team-pic img {
 	border: #59585a solid 1px;
 	padding: 1em;
 	border-radius: .5em;
+	margin-top: 2em;
 }	
 
 .advisor-extended a {
@@ -1781,12 +1794,12 @@ article.team-pic img {
 	.advisorsCan
 	{
 		float: left;
-		text-align: right;
 	}
 
 	.advisorsUs
 	{
 		float: right;
+		margin-left: 1em;
 	}
 
 	ul.advisorsCan li,
@@ -1934,7 +1947,7 @@ section#vision h4
 
 	section#login input {
 		display: block;
-		box-shadow: inset 0 0 0 1px #e6e6e6;
+		box-shadow: inset 0 0 0 1px rgba(230, 230, 230, 0.28);
 		background: rgba(248, 248, 248, 0.12);
 		width: 100%;
 		padding: 1em;
@@ -2099,7 +2112,7 @@ section#vision h4
 		.carousel article
 		{
 			display: inline-block;
-			width: 18em;
+			width: 20%;
 			background: #fff;
 			text-align: center;
 			padding: 0 1em 0em 1em;
@@ -2138,6 +2151,12 @@ section#vision h4
 	border: #59585a solid 1px;
 	padding: 1em;
 	border-radius: .5em;
+	}
+
+
+	section#portfolio
+	{
+		padding-bottom: 3em;
 	}
 
 	.clearfix:after {
