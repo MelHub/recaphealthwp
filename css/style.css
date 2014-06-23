@@ -2,8 +2,7 @@
 
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
 @import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
-@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 /*
 	Helios 1.5 by HTML5 UP
 	html5up.net | @n33co
@@ -40,7 +39,7 @@
 
 	h1,h2,h3,h4,h5,h6
 	{
-		/*font-weight: 700;*/
+		font-weight: 300;
 		/* ---- dark grey */
 		color: rgb(84, 84, 84); 
 		line-height: 1.25em;
@@ -62,7 +61,7 @@
 	{
 		font-size: 2.85em;
 		text-transform: uppercase;
-		font-weight: 900;
+		font-weight: 400;
 		letter-spacing: 0.1em;
 		text-shadow: 2px 3px rgba(239, 239, 239, 0.46);
 	}
@@ -274,14 +273,23 @@
 		{
 			border: 1px solid rgba(200, 203, 195, 1);
 			border-radius: 0.4em;
-			height: 14em;
+			height: 28em;
 			padding: 2.5em 2em 1em;
 			text-align: center;
-			width: 14em;
+			width: 29em;
 			margin-bottom: .2em;
 			overflow: hidden;
-			background-color: rgba(140, 196, 66, 0.77);
-		}	
+			/*background-color: rgba(140, 196, 66, 0.77);*/
+		}
+
+		article .greensquare-right h3,
+		article .greensquare-left	h3 
+		{
+			font-weight: 800;
+			font-size: 1em;
+			padding-top: 1.4em;
+			text-transform: capitalize;
+		}
 
 		article .greensquare-right
 		{
@@ -292,6 +300,15 @@
 		{
 			float: left;
 		} 
+
+		article .greensquare-right img,
+		article .greensquare-left img
+		{
+			width: 100%;
+			border: 2px solid rgba(140, 196, 66, 1);
+			border-radius: 0.4em;
+
+		}
 	
 
 		section.special > header:first-child 
@@ -1588,7 +1605,7 @@
 	background: #59585A;
 	text-align: right;
 	font-size: 1.3em;
-	padding: 4em 0 4em 0;
+	padding: 2em 0 2em 0;
 	}	
 
 	#quote strong 
