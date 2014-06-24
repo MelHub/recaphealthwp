@@ -274,10 +274,10 @@
 			border: 1px solid rgba(200, 203, 195, 1);
 			border-radius: 0.4em;
 			height: 28em;
-			padding: 2.5em 2em 1em;
+			/*padding: 2.5em 2em 1em;*/
 			text-align: center;
 			width: 29em;
-			margin-bottom: .2em;
+			margin: .2em 0 .5em .2em;
 			overflow: hidden;
 			/*background-color: rgba(140, 196, 66, 0.77);*/
 		}
@@ -288,7 +288,7 @@
 			font-weight: 800;
 			font-size: 1em;
 			padding-top: 1.4em;
-			text-transform: capitalize;
+			text-transform: none;	
 		}
 
 		article .greensquare-right
@@ -624,7 +624,7 @@
 					position: relative;
 					display: inline-block;
 					background: rgba(140, 196, 66, 0.77);
-					color: rgba(33, 34, 32, 0.77);
+					color: rgba(255, 255, 255, 1);
 					/* text-align: center; */
 					border-radius: 0.2em;
 					font-size: .7em;
@@ -1270,7 +1270,7 @@
 			padding: 4em 0 4em 0;
 		}
 	
-			.homepage #header .overlay
+/*			.homepage #header .overlay
 			{
 				content: '';
 				
@@ -1289,7 +1289,7 @@
 				-o-transition: opacity 2s ease-in-out;
 				-ms-transition: opacity 2s ease-in-out;
 				transition: opacity 2s ease-in-out;
-			}
+			}*/
 		
 			.homepage #header.ready .overlay
 			{
@@ -1582,6 +1582,7 @@
 	text-align: right;
 	font-size: 1.3em;
 	padding: 2em 0 2em 0;
+	margin-bottom: 0;
 	}	
 
 	#quote strong 
@@ -1610,11 +1611,14 @@
 	#call-action
 	{
 		/*background-color: #fff;*/
-		background: url('images/banner.gif') repeat-x center center;
 		text-align: center;
-		padding: 4em 0 4em 0;
 	}	
 
+	#call-action .bcg 
+	{
+		background: url('images/banner.gif') repeat-x center center;
+		padding: 4em 0 4em 0;	
+	}
 /*********************************************************************************/
 /* News                                                                      */
 /*********************************************************************************/
@@ -1625,6 +1629,11 @@
 		text-align: center;
 		padding: 10em 0 10em 0;
 	}		
+
+	#news 
+	{
+		text-align: left;
+	}
 
 		article.news
 	{
@@ -1681,6 +1690,20 @@
 		{
 			margin-bottom: 0;
 		}
+
+	.content-image 
+	{
+		text-align: center;
+		border-radius: .7em;
+		margin-bottom: 1em;
+	}	
+
+	.content-image img 
+	{
+		border-radius: .3em;
+		border: 1px solid rgba(140, 196, 66, 0.71);
+		margin: 1em;
+	}
 		
 /*********************************************************************************/
 /* Sidebar                                                                       */
@@ -1724,7 +1747,7 @@
 /*********************************************************************************/
 
 article.team-pic img {
-	border-radius: 100%;
+	border-radius: .3em;
 	width: 100%;
 	height: 100%;
 }
@@ -1787,19 +1810,20 @@ article.team-pic img {
 	ul.advisorsCan,
 	ul.advisorsUs 
 	{
-	font-size: .7em;
+	font-size: .9em;
 	margin-bottom: 1em;
 	}
 
 	.advisorsCan
 	{
 		float: left;
+		/*width: 100%;*/
 	}
 
 	.advisorsUs
 	{
 		float: right;
-		margin-left: 1em;
+		/*margin-left: 1em;*/
 	}
 
 	ul.advisorsCan li,
@@ -1812,28 +1836,44 @@ article.team-pic img {
 /* About Recap                                                                   */
 /*********************************************************************************/	
 
+	section#about 
+	{
+		margin-top: 3em;
+	}
+
 	#about-left 
 	{
 		margin-bottom: 12%;
+		margin-top: 7%;
+
 	}
 
 	.about-recap-right	
 	{
 		float: right;
+		opacity: 0;
 	}
 
-	.about-recap-right p,
-	.about-recap-left p
+	#about .right 
+	{
+		float: right;
+	}
+
+	#about .left 
+	{
+		float: left;
+	}
+
+	.about-recap p
 	{
 		margin-top: 8%;
 		font-size: 2em;
 		text-align: left;
-		color: rgb(246, 246, 246);
-		text-shadow: 2px 2px rgba(239, 239, 239, 0.2);
+		color: rgb(85, 81, 81);
+		text-shadow: 2px 2px rgba(255, 255, 255, 0.56);
 	}
 
-	.about-recap-right img,
-	.about-recap-left img
+	.about-recap img
 	{
 		border-radius: 100%;
 		width: 20em;
@@ -1841,15 +1881,15 @@ article.team-pic img {
 		border: .2em solid rgba(140, 196, 66, 0.8);
 	}
 
-	.about-recap-left 
+	.about-recap img 
 	{
-		float: left;
-	}	
+		margin-top: 3em;
+		opacity: 1;
+	}
 
 	.green-bg 
 	{
-		background-color: rgba(140, 196, 66, 0.25);
-		background: url('images/congruent_outline.png');
+		background-color: rgba(140, 196, 66, 0);
 		background-attachment: fixed;
 		border-bottom: 1px solid rgba(163, 163, 163, 1);
 	}
@@ -1857,6 +1897,11 @@ article.team-pic img {
 /*********************************************************************************/
 /* Vision                                                                        */
 /*********************************************************************************/
+
+section#vision 
+{
+	opacity: 0;
+}
 
 section#vision h4 
 {
@@ -1902,7 +1947,6 @@ section#vision h4
 
 		#footer .contact
 		{
-			text-align: center;
 		}
 		
 			#footer .contact p
@@ -1928,6 +1972,20 @@ section#vision h4
 				{
 					color: rgba(212,212,212,0.85);
 				}
+
+	.address 
+	{
+		margin-bottom: 2em;
+	}			
+
+/*********************************************************************************/
+/* Connect with social media                                                     */
+/*********************************************************************************/
+
+section#connect-social 
+{
+	text-align: left;
+}
 
 /*********************************************************************************/
 /* Login                                                                         */
@@ -2169,3 +2227,20 @@ section#vision h4
 	}
 * html .clearfix             { zoom: 1; } /* IE6 */
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+/*********************************************************************************/
+/* Portfolio detail                                                               */
+/*********************************************************************************/
+
+.portfolio-detail img
+{
+	float:left;	
+	margin-right: 1em;
+}
+
+.portfolio-detail-text
+{
+	display: block;
+}
+
+

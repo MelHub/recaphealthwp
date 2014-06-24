@@ -14,20 +14,15 @@
 		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.dropotron.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-panels.min.js"></script>
-		<script src="js/init.js"></script>
-		<script src="js/recap.js"></script>
 		<noscript>
-			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style-desktop.css" />
 			<link rel="stylesheet" href="css/style-noscript.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 	</head>
+
 	<body class="homepage">
 
 		<!-- Header -->
@@ -49,15 +44,15 @@
 				<!-- Nav -->
 				<header id="headerNav" class="reveal alt">
 					<nav id="nav">
-							<img src="images/recap-logo.png"/>
+							<a href="#header" class="scrolly"><img src="images/recap-logo.png"/>
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="#vision">Vision</a></li>
-							<li><a href="#team">Team</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="#portfolio">Portfolio</a></li>
-							<li><a href="#news">News</a></li>
-							<li><a href="#contact">Contact</a></li>
+							<li><a href="#header" class="scrolly">Home</a></li>
+							<li><a href="#vision" class="scrolly">Vision</a></li>
+							<li><a href="#team" class="scrolly">Team</a></li>
+							<li><a href="#about-position" class="scrolly">About</a></li>
+							<li><a href="#portfolio" class="scrolly">Portfolio</a></li>
+							<li><a href="#news" class="scrolly">News</a></li>
+							<li><a href="#contact" class="scrolly">Contact</a></li>
 						</ul>
 					</nav>
 				</header>	
@@ -71,8 +66,8 @@
 
 		<!-- Visions -->
 			<div class="wrapper style1">
-
-				<section id="vision" class="container special">
+	
+				<section id="vision" class="container special" data-center="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#vision-target">
 
 					<header>
 						<h2>Vision</h2>
@@ -85,7 +80,7 @@
 									<img src="images/pic-socialimpact.jpg" />
 									<h3>To deliver sector leading financial returns and meaningful social impact.
 									</h3>
-								</div><!-- 	<a href="http://mdomaradzki.deviantart.com/art/Bueller-VII-351975126" class="image vision"><img src="images/pic07.jpg" alt="" /></a> -->
+								</div>
 							</article>	
 						</div>
 
@@ -108,7 +103,7 @@
 									</div>
 								</article>	
 							</div>
-							
+
 							<div class="6u">
 								<article class="special">
 									<div class="greensquare-left">
@@ -118,6 +113,8 @@
 								</article>	
 							</div>
 						</div>	
+						
+						<div id="vision-target"></div>
 
 				</section>
 			</div>			
@@ -133,35 +130,35 @@
 
 					<div class="row team-pic-container">
 						<article class="-1u 2u special team-pic" data-bio="bio1">
-							<a href="http://mdomaradzki.deviantart.com/art/Bueller-VII-351975126" class="team-featured"><img src="images/bio-pic-ro.jpg" alt="" /></a>
+							<a href="team-detail.html" target="_blank"><img src="images/bio-pic-ro.jpg" alt="" /></a>
 							<header>
 								<h4><a href="#">Richard Osborn</a></h4>
 							</header>
 						</article>
 
 						<article class="2u special team-pic" data-bio="bio2">
-							<a href="http://mdomaradzki.deviantart.com/art/Up-is-Down-325005102" class="team-featured"><img src="images/bio-pic-sg.jpg" alt="" /></a>
+							<a href="team-detail.html" target="_blank"><img src="images/bio-pic-sg.jpg" alt="" /></a>
 							<header>
 								<h4><a href="#">Dr.Samuel J Gutman</a></h4>
 							</header>
 						</article>
 
 						<article class="2u special team-pic" data-bio="bio3">
-							<a href="http://mdomaradzki.deviantart.com/art/Up-is-Down-325005102" class="team-featured"><img src="images/bio-pic-ms.jpg" alt="" /></a>
+							<a href="team-detail.html" target="_blank"><img src="images/bio-pic-ms.jpg" alt="" /></a>
 							<header>
 								<h4><a href="#">Matthew Sorensen</a></h4>
 							</header>
 						</article>
 
 						<article class="2u special team-pic" data-bio="bio4">
-							<a href="http://mdomaradzki.deviantart.com/art/Up-is-Down-325005102" class="team-featured"><img src="images/bio-pic-jt.jpg" alt="" /></a>
+							<a href="team-detail.html" target="_blank"><img src="images/bio-pic-jt.jpg" alt="" /></a>
 							<header>
 								<h4><a href="#">Jose Toussaint</a></h4>
 							</header>
 						</article>
 
 						<article class="2u special team-pic" data-bio="bio5">
-								<a href="http://mdomaradzki.deviantart.com/art/Home-Bound-Train-II-338912191" class="team-featured"><img src="images/bio-pic-kb.jpg" alt="" /></a>
+								<a href="team-detail.html" target="_blank"><img src="images/bio-pic-kb.jpg" alt="" /></a>
 								<header>
 									<h4><a href="#">Kaitlyn Burke</a></h4>
 								</header>
@@ -219,7 +216,7 @@
 							<a href="#" class="fa fa-linkedin solo"></a>
 						</div>
 
-					<div class="-1u 6u advisor-extended clearfix">
+					<div class="-1u 10u advisor-extended clearfix">
 								<ul class="advisorsCan">
 									<h5>Canadian Advisory board members</h5>
 									<li>
@@ -288,50 +285,48 @@
 								</ul>	
 					</div>			
 
-									</section>
-				<section id="advisors" class="container">
-						<div class="row">
-							<div class="-4u 4u advisory-board">
-
-							</div>
-						</div>		
 				</section>
 
 			</div>			
 
 			
 		<!-- Main -->
-			<div class="wrapper style1 green-bg">
-			
-				<section id="about" class="container">
 
+		<div id="about-position"></div>
+
+		<div class="wrapper style1 green-bg" data--100-top="background-color:rgba(140, 196, 66, 0);" data-center="background-color:rgba(140, 196, 66, 0.7);">
+
+				<section id="about" class="container">
+					<div id="about-target"></div>
 					<div id="about-left" class="row">
-						<div class="11u">
-							<div class="6u about-recap-right">
+						<div class="11u about-recap">
+							<div class="6u right" data-center="opacity: 0" data-top="opacity: 1;" data-anchor-target="#about">
 								<p>
-									Government austerity, delivery costs, aging populations, rampant chronic disease and patient demands are combining to challenge health and social care systems around the world.  Observers describe the situation as a ‘perfect storm’ of crisis, but also of opportunity.  
+								Government austerity, delivery costs, aging populations, rampant chronic disease and patient demands are combining to challenge health and social care systems around the world.  Observers describe the situation as a ‘perfect storm’ of crisis, but also of opportunity.  
 								</p>
 							</div>
-							<div class="5u about-recap-left">
-								<a href="http://mdomaradzki.deviantart.com/art/Air-Lounge-385212062" class="image full"><img src="images/medi1.jpg" alt="" /></a>
+							<div id="about-target2" class="5u left" data-center="opacity: 1" data-top-center="opacity: 0" data-anchor-target="#about-right">
+								<img src="images/medi1.jpg" alt="" />
 							</div>
 						</div>
 					</div>
 
 					<div id="about-right" class="row">
-						<div class="-1u 11u">
-							<div class="6u about-recap-left">	
+						<div class="-1u 11u about-recap">
+							<div class="6u left" data-center="opacity: 1" data-top="opacity: 0" data-anchor-target="#about-img2-fader">
 							<p>
 								RecapHealth invests and actively supports world class opportunities and is fortunate to work with partners that include healthcare entrepreneurs, executives, providers, private payers, non profits and governments alike.
 							</p>	
 							</div>
-							<div class="5u about-recap-right">
-								<a href="http://mdomaradzki.deviantart.com/art/Air-Lounge-385212062" class="image full"><img src="images/medi2.jpg" alt="" /></a>
+							<div class="5u right" data-center="opacity: 1" data--100-top="opacity: 0" data-anchor-target="#about-img2-fader">
+								<img src="images/medi2.jpg" alt="" />
 							</div>
 						</div>
 					</div>
+					<div id="about-img2-fader"></div>
 				</section>
-				</div>
+				
+		</div>
 				
 
 			<!-- Carousel -->
@@ -346,7 +341,7 @@
 					<div class="reel">
 							
 						<article class="portfolio-item" data-logo="logo1">
-							<a href="http://mdomaradzki.deviantart.com/art/Bueller-III-351975087" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+							<a href="portfolio-detail.html" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
 						</article>
 					
 						<article class="portfolio-item" data-logo="logo2">
@@ -438,6 +433,12 @@
 
 		<!-- Call to action -->
 			<div id="call-action" class="12u">
+				<div class="bcg"
+						data-top-bottom="background-position: 100% 0px"
+						data-center="background-position: 90% 0px;"
+		        data-bottom-top="background-position: 80% 0px;"
+		        data-anchor-target="#news">
+
 				<span class="byline"><strong>A call to action - you in? </strong> 
 					<a href="#" class="call-button">learn more</a>
 				</span>
@@ -537,7 +538,7 @@
 									<input type="reset" class="form-button alt" value="Clear Form" />
 								</form>
 							</div>
-							<div class="-1u 5u">
+							<div class="-1u 5u address">
 								<h5>RecapHealth Venture</h5>
 								<h5>Address: </h5>
 								<h4>Suite 300 128 W. Hastings <br>
@@ -557,10 +558,8 @@
 			<div id="footer">
 				<div class="container">
 					<div class="row">
-						
 						<!-- Social Feeds -->
-							<section class="8u">
-								<!-- <header>Social Feeds</header> -->
+							<section id="connect-social" class="8u">
 								<div class="11u	">
 									<h3>Twitter / Linkdin</h3>
 									<h5>Recap Health</h5>
@@ -593,27 +592,28 @@
 									</div>
 								</div>
 							</section>
+
 					</div>
 
-					<div class="row">
-						<div class="12u">
-							
-							<!-- Contact -->
-
-							
-							<!-- Copyright -->
-								<div class="copyright">
-									<ul class="menu">
-										<li>&copy; Recap Health Ventures. All rights reserved.</li>
-										<li>Design: </a></li>
-									</ul>
-								</div>
-							
-						</div>
-					
+					<div class="copyright">
+						<ul class="menu">
+							<li>&copy; Recap Health Ventures. All rights reserved.</li>
+							<li>Design: </a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
 
+				</div>
+			</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<script src="js/recap.js"></script>
+		<script src="js/skrollr.js"></script>
+		<script src="js/animation.js"></script>
 	</body>
 </html>
