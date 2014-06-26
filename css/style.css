@@ -1880,7 +1880,10 @@ article.team-pic img:hover {
 	{
 	background: url(images/network.png) center 0px no-repeat;
 	margin: 0 auto;	
-	background-attachment: relative;
+/*	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;*/
+
 	}
 
 	#about-left 
@@ -2167,7 +2170,7 @@ section#connect-social
 				position: absolute;
 				top: 75%;
 				margin: -1.5em 0 0 0;
-				background: url('images/arrow.svg') no-repeat center center;
+				background: url('images/arrow1.svg') no-repeat center center;
 			}
 
 			.carousel .forward:after
