@@ -2026,6 +2026,12 @@ section#vision h4
 				margin: 0 0 3em 0;
 			}
 
+		.bg-contrast
+		{
+			background-color: #F3F3F3;
+			border-top: solid rgba(140, 196, 66, 0.4);
+		}	
+
 		.address 
 		{
 			text-align: left;
