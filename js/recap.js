@@ -10,34 +10,23 @@ var recap = {
 
     bio.siblings('.team-extended-bio').addClass('hidden');
     bio.removeClass('hidden');
+  },  
+	portfolioShow: function() {
+    var company = $(this),
+				blurbID = company.data('logo'),
+        blurb = $("#"+blurbID);
+
+
+		blurb.siblings('.portfolio-extended').addClass('hidden');
+    blurb.removeClass('hidden');
+    
+    company.css('width', '100%');
   }
+
 };
 
 $(function() {
   $(".team-pic").hover(recap.teamShow, function() {});  
+  $(".portfolio-item").hover(recap.portfolioShow, function() {});
 });
 
-
-/*********************************************************************************/
-/* Portfolio                                                                     */
-/*********************************************************************************/
-
-
-var portfolio = {
-  portfolioShow: function() {
-    var company = $(this),
-        companyID = company.data('logo'),
-        logo = $("#"+companyID);
-
-
-    logo.siblings('.portfolio-extended').addClass('hidden');
-    // logo.removeClass('hidden');
-    logo.css('width', '100%');
-  }
-};
-
-$(function() {
-  $(".portfolio-item").hover(portfolio.portfolioShow, function() {
-
-  }); 
-});
