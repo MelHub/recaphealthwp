@@ -20,7 +20,6 @@ var recap = {
 		blurb.siblings('.portfolio-extended').addClass('hidden');
     blurb.removeClass('hidden');
     
-    company.css('width', '100%');
   }
 
 };
