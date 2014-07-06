@@ -1711,6 +1711,32 @@
 		border: 1px solid rgba(140, 196, 66, 0.71);
 		margin: 1em;
 	}
+
+/*********************************************************************************/
+/* Blog                                                                          */
+/*********************************************************************************/	
+
+header.blog-header h5
+{
+	color: rgb(140, 196, 66);
+	font-size: 1.5em;
+	margin-top: .6em;
+}
+
+header.blog-header span.timestamp
+{
+	color: rgb(157, 157, 157);
+	font-size: 1em;
+}
+
+.blog-content img 
+{
+	float: right;
+	margin: .7em;
+	border: 2px solid rgb(140, 196, 66);
+	border-radius: 0.3em;
+}
+
 		
 /*********************************************************************************/
 /* Sidebar                                                                       */
@@ -1996,9 +2022,20 @@ section#vision h4
 		
 			#footer .contact p
 			{
-				text-align: center;
+				/*text-align: left;*/
 				margin: 0 0 3em 0;
 			}
+
+		.bg-contrast
+		{
+			background-color: #F3F3F3;
+			border-top: solid rgba(140, 196, 66, 0.4);
+		}	
+
+		.address 
+		{
+			text-align: left;
+		}	
 		
 		#footer .copyright
 		{
