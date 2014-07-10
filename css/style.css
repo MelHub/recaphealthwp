@@ -2315,6 +2315,10 @@ section#connect-social
 /* Portfolio detail                                                               */
 /*********************************************************************************/
 
+.portfolio-detail-logo img {
+	margin-bottom: 2em;
+}
+
 .portfolio-detail img
 {
 	float:left;	
