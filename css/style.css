@@ -271,7 +271,7 @@
 		article .greensquare-right,
 		article .greensquare-left
 		{
-			border: 1px solid rgba(200, 203, 195, 1);
+			/*border: 1px solid rgba(200, 203, 195, 1);*/
 			border-radius: 0.4em;
 			max-height: 30em;
 			height:100%;
@@ -306,7 +306,7 @@
 		article .greensquare-right img,
 		article .greensquare-left img
 		{
-			width: 100%;
+			width: 70%;
 			border: 2px solid rgba(140, 196, 66, 1);
 			border-radius: 0.4em;
 
@@ -489,12 +489,12 @@
 		ul.icons
 		{
 			position: relative;
-			background: rgba(128,128,128,0.05);
+			/*background: rgba(128,128,128,0.05);*/
 			border-radius: .3em;
 			display: inline-block;
-			padding: 0.15em 0.25em 0.25em 0.15em;
+			/*padding: 0.15em 0.25em 0.25em 0.15em;
 			font-size: .8em;
-			border: solid rgba(208, 208, 208, 0.16) 1px;
+			border: solid rgba(208, 208, 208, 0.16) 1px;*/
 			cursor: default;
 		}
 		
@@ -518,7 +518,7 @@
 				
 					ul.icons li a:hover
 					{
-						color: #ef8376;
+						color: rgba(140, 196, 66,1);
 					}
 
 		ol.style1
@@ -1954,7 +1954,8 @@ article.team-pic img:hover {
 
 	.about-recap img 
 	{
-		margin-top: 3em;
+		/*margin-top: 3em;*/
+		margin-top: 1em;
 		opacity: 1;
 	}
 
@@ -1971,7 +1972,7 @@ article.team-pic img:hover {
 
 section#vision 
 {
-	opacity: 0;
+	/*opacity: 0;*/
 }
 
 section#vision h4 
@@ -2068,6 +2069,26 @@ section#connect-social
 {
 	text-align: left;
 }
+
+section#connect-social h5 
+{
+	color: rgba(140, 196, 66,1);
+}
+
+#connect-social .followbox 
+{
+	margin-top: .5em;
+	padding-bottom: .2em;
+	padding-top: 2.5em;
+	border-top: .1em dotted rgba(255, 255, 255, 0.12);
+	border-bottom: .1em dotted rgba(255, 255, 255, 0.12);
+}
+
+#connect-social .followbox h5 
+{
+	margin-bottom: .9em;
+}
+
 
 /*********************************************************************************/
 /* Login                                                                         */
