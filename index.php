@@ -559,7 +559,7 @@
 								<h4>Suite 300 128 W. Hastings <br>
 								Vancouver BC V6B 1G8 </h4> <br>
 								<h5>E-mail:</h5>
-								<h4>richard@recaphealthventures.com </h4>
+								<h4>kaitlyn@recaphealthventures.com </h4>
 								<h5>Telephone:</h5><h4> 604.683.8999 </h4>
 							</div>
 						</div>
@@ -576,7 +576,7 @@
 						<!-- Social Feeds -->
 							<section id="connect-social" class="8u">
 								<div class="11u	">
-									<h3>Twitter / Linkdin</h3>
+									<h3>Twitter / Linkedin</h3>
 									<h5>Recap Health</h5>
 									<p>Support the scaling of innovative solutions to global challenges</p>
 									<span class="timestamp">16 Jun 2014 18:40 pm</span>
