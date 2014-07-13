@@ -12,7 +12,7 @@
 
 		// Header (homepage only)
 			header: {
-				fullScreen: true,
+				fullScreen: false,
 				fadeIn: true,
 				fadeDelay: 200
 			},

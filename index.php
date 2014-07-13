@@ -226,9 +226,6 @@
 										<p>John DeHart-<i>CEO NurseNextDoor</i></p>
 									</li>
 									<li>
-										<p>Bob Wilson-<i>CEO NurseNextDoor</i></p>
-									</li>
-									<li>
 										<p>Alexandra Greenhill-<i>ex Pres. BCMA </i></p>
 									</li>
 									<li>
@@ -238,7 +235,7 @@
 										<p>James Tansey-<i>ED ISIS at UBC</i></p>
 									</li>
 									<li>
-										<p>Bob Wilson - <i>founder/CEO Wilson Banwell/Morneau Sobeco</i></p>
+										<p>Bob Wilson - <i>Founder/CEO Wilson Banwell (EAP)</i></p>
 									</li>
 								</ul>	
 								<ul class="advisorsUs">
@@ -250,16 +247,16 @@
 										<p>Karl Zachar - <i>SVP Epocrates, SVP AthenaHealth, Goldman Sachs</i><p>
 									</li> 
 									<li>
-										<p>Gary Stuart-<i>CIO United Healthcare</i></p>
+										<p>Gary Stuart-<i>Executive Vice President at Emdeon Business Services</i></p>
 									</li>  
 									<li>
-										<p>Paul Sonnenschein-<i>CIO United Healthcare</i></p>
+										<p>Paul Sonnenschein-<i>Vice President, Strategic Accounts at Healthline Networks, Inc.</i></p>
 									</li>  
 									<li>
 										<p>Geoffrey Rutledge-<i>CEO Healthtap, former SVP WEBMD</i></p>
 									</li> 
 									<li>
-										<p>Steve Curd-<i>CIO United Healthcare</i></p>
+										<p>Steve Curd-<i>Ex CIO United Healthcare</i></p>
 									</li>  
 									<li>
 										<p>Steve Johnson-<i>CRO, Hootsuite</i></p>
@@ -295,18 +292,18 @@
 		<div id="about-position"></div>
 		<div class="bg1">
 
-		<div class="wrapper style1 green-bg" data--100-top="background-color:rgba(140, 196, 66, 0);" data-center="background-color:rgba(140, 196, 66, 0.7);">
+		<div class="wrapper style1 green-bg">
 
 				<section id="about" class="container">
 					<div id="about-target"></div>
 					<div id="about-left" class="row">
 						<div class="11u about-recap">
-							<div class="6u right" data-center="opacity: 0" data-top="opacity: 1;" data-anchor-target="#about">
+							<div class="6u right">
 								<p>
 								Government austerity, delivery costs, aging populations, rampant chronic disease and patient demands are combining to challenge health and social care systems around the world.  Observers describe the situation as a ‘perfect storm’ of crisis, but also of opportunity.  
 								</p>
 							</div>
-							<div id="about-target2" class="5u left aboutimg1" data-center="opacity: 1" data-top-center="opacity: 0" data-anchor-target="#about-right">
+							<div id="about-target2" class="5u left aboutimg1">
 								<img src="images/medi1.jpg" alt="" />
 							</div>
 						</div>
@@ -314,12 +311,12 @@
 
 					<div id="about-right" class="row">
 						<div class="-1u 11u about-recap">
-							<div class="6u left" data-center="opacity: 1" data-top="opacity: 0" data-anchor-target="#about-img2-fader">
+							<div class="6u left">
 							<p>
 								RecapHealth invests and actively supports world class opportunities and is fortunate to work with partners that include healthcare entrepreneurs, executives, providers, private payers, non profits and governments alike.
 							</p>	
 							</div>
-							<div class="5u right" data-center="opacity: 1" data--100-top="opacity: 0" data-anchor-target="#about-img2-fader">
+							<div class="5u right">
 								<img src="images/medi2.jpg" alt="" />
 							</div>
 						</div>
@@ -588,9 +585,14 @@
 									<h5>Recap Health</h5>
 									<p>Support the scaling of innovative solutions to global challenges</p>
 									<span class="timestamp">16 Jun 2014 18:40 pm</span>
+									<div class="followbox">
+									<ul class="icons">
+										<h5>Stay Connected</h5>
+										<h4>Follow Recap Health Ventures on Twitter and LinkedIn</h4>
+										<li><a href="#" class="fa fa-linkedin solo"><span>Linkedin</span></a></li>
+										<li><a href="https://twitter.com/RecapHealth" class="fa fa-twitter solo"><span>Twitter</span></a></li>
+									</ul>
 								</div>
-								<div class="8u box">
-									<p>follow box </p>
 								</div>
 							</section>
 
