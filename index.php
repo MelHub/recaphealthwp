@@ -517,11 +517,11 @@
 					<div class="container small">
 						<div class="row half">
 							<div class="6u">
-								<form method="post" action="#">
-									<input type="text" class="text" placeholder="Name" />
-									<input type="text" class="text" placeholder="Email" />
+								<form method="post" id="contactForm" action="#">
+									<input type="text" class="text" id="contact_name" placeholder="Name" />
+									<input type="text" class="text" id="contact_email" placeholder="Email" />
 
-									<textarea name="message" placeholder="Message"></textarea>
+									<textarea name="message" id="contact_message" placeholder="Message"></textarea>
 
 									<input type="submit" class="form-button" value="Send Message" />
 									<input type="reset" class="form-button alt" value="Clear Form" />
