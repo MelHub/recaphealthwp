@@ -16,6 +16,7 @@ function doMail($from, $message) {
 
     // Mail it
     mail('kaitlyn@recaphealthventures.com', 'Website Contact', $message, $headers);
+    //mail('don@lighthouselabs.ca', 'Website Contact', $message, $headers);
 }
 
 /* validateEmail - Validate email addresses. Must have an '@' sign, domain must have at least domain and tld, and must have an accessible MX record

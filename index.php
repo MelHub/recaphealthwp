@@ -17,6 +17,14 @@
 			<link rel="stylesheet" href="css/style-noscript.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<script src="js/recap.js"></script>
+		<script src="js/skrollr.js"></script>
+		<script src="js/animation.js"></script>
 	</head>
 
 	<body class="homepage">
@@ -601,13 +609,5 @@
 				</div>
 			</div>
 
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.dropotron.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-panels.min.js"></script>
-		<script src="js/init.js"></script>
-		<script src="js/recap.js"></script>
-		<script src="js/skrollr.js"></script>
-		<script src="js/animation.js"></script>
 	</body>
 </html>

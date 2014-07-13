@@ -30,9 +30,11 @@ var recap = {
 
 		$.post('/php_lib/mailer.php', formData, function(data) {
 				if (data.result) {
-					form.replaceWith('<h2>Thank you for submitting.</h2>');
+					form.replaceWith('<h3>Thank you for reaching out. Someone will be in contact with you soon..</h3>');
 				}
 		}, 'json');
+
+		return false;
 	}
 };
 
