@@ -40,9 +40,9 @@
 								<strong>RecapHealth Ventures</strong> is a unique investment fund delivering financial and social impact by investing in global health care innovation
 							</h2>
 						</header>
-						<footer>
+						<!-- <footer>
 							<a id="downArrow" href="#banner" class="button circled scrolly"></a>
-						</footer>
+						</footer> -->
 					</div>
 				
 				<!-- Nav -->
@@ -64,55 +64,55 @@
 			
 		<!-- Banner -->
 			<div id="banner" class="-1u 10u">
-				<h3><strong>RecapHealth Ventures</strong> multi-disciplinary investment team has expertise in Canadian, US and European health care markets and is supported by an extended team of advisors with deep domain knowledge in our targeted sectors.
+				<h3><strong>RecapHealth Ventures</strong> investment team has expertise in Canadian, US and European health care markets and is supported by an extended team of advisors with deep domain knowledge in our targeted sectors.
 				</h3>
 			</div>
 
 		<!-- Visions -->
 			<div class="wrapper style1">
 	
-				<section id="vision" class="container special" data-center="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#vision-target">
+				<section id="vision" class="container special">
 
 					<header>
 						<h2>Vision</h2>
 					</header>
 
-					<div class="row">
-						<div class="6u">
+					<div class="row vision-wrap">
+						<div class="3u">
 							<article class="special">
 								<div class="greensquare-right">
 									<img src="images/pic-socialimpact.jpg" />
-									<h3>To deliver sector leading financial returns and meaningful social impact.
-									</h3>
+									<h4>To deliver sector leading financial returns and meaningful social impact.
+									</h4>
 								</div>
 							</article>	
 						</div>
 
-						<div class="6u">
+						<div class="3u">
 							<article class="special">
 								<div class="greensquare-left">
 									<img src="images/pic-fundinggap.jpg" />
-									<h3>Fill a funding gap for entreprenuers pursuing sector focused, value added capital</h3>
+									<h4>Fill a funding gap for entreprenuers pursuing sector focused, value added capital</h4>
 								</div>	
 							</article>	
 						</div>
-					</div>
+					<!-- </div> -->
 
-						<div class="row">
-							<div class="6u">
+						<!-- <div class="row"> -->
+							<div class="3u">
 								<article class="special">
 									<div class="greensquare-right">
 										<img src="images/pic-ecosystem.jpg" />
-										<h3>To catalyze capital across the return spectrum (commercial to philanthropic) to improve the heath care ecosystem</h3>
+										<h4>To catalyze capital across the return spectrum (commercial to philanthropic) to improve the heath care ecosystem</h4>
 									</div>
 								</article>	
 							</div>
 
-							<div class="6u">
+							<div class="3u">
 								<article class="special">
 									<div class="greensquare-left">
 										<img src="images/pic-scalesupport.jpg" />
-										<h3>Support the scaling of innovative solutions to global challenges</h3>
+										<h4>Support the scaling of innovative solutions to global challenges</h4>
 									</div>			
 								</article>	
 							</div>
@@ -150,7 +150,7 @@
 						<article class="2u special team-pic" data-bio="bio3">
 							<a href="team-detail3.html" target="_blank"><img src="images/bio-pic-ms.jpg" alt="" /></a>
 							<header>
-								<h4><a href="team-detail3.html">Matthew Sorensen</a></h4>
+								<h4><a href="team-detail3.html">Matthew Moore</a></h4>
 							</header>
 						</article>
 
@@ -222,22 +222,22 @@
 										<p>Kip Woodward - <i>Chair Vancouver Coastal Health Authority</i></p>
 									</li>
 									<li>
-										<p>Graham Whitmarsh-<i>BC Deputy Health and Finance Minister</i></p>
+										<p>Graham Whitmarsh - <i>BC Deputy Health and Finance Minister</i></p>
 									</li>
 									<li>
-										<p>Dale Tiessen-<i>GM, GE Healthcare</i></p>
+										<p>Dale Tiessen - <i>GM, GE Healthcare</i></p>
 									</li>
 									<li>
-										<p>Ida Goodreau-<i>ex CEO LifeLabs, ex CEO Vancouver Coastal</i></p>
+										<p>Ida Goodreau - <i>ex CEO LifeLabs, ex CEO Vancouver Coastal</i></p>
 									</li>
 									<li>
-										<p>John DeHart-<i>CEO NurseNextDoor</i></p>
+										<p>John DeHart - <i>CEO NurseNextDoor</i></p>
 									</li>
 									<li>
-										<p>Alexandra Greenhill-<i>ex Pres. BCMA </i></p>
+										<p>Alexandra Greenhill - <i>ex Pres. BCMA </i></p>
 									</li>
 									<li>
-										<p>Rebecca Palm-<i>SVP M&A AthenaHealth</i></p>
+										<p>Rebecca Palm - <i>SVP M&A AthenaHealth</i></p>
 									</li>
 									<li>
 										<p>James Tansey-<i>ED ISIS at UBC</i></p>
@@ -255,28 +255,28 @@
 										<p>Karl Zachar - <i>SVP Epocrates, SVP AthenaHealth, Goldman Sachs</i><p>
 									</li> 
 									<li>
-										<p>Gary Stuart-<i>Executive Vice President at Emdeon Business Services</i></p>
+										<p>Gary Stuart - <i>Executive Vice President at Emdeon Business Services</i></p>
 									</li>  
 									<li>
-										<p>Paul Sonnenschein-<i>Vice President, Strategic Accounts at Healthline Networks, Inc.</i></p>
+										<p>Paul Sonnenschein - <i>Vice President, Strategic Accounts at Healthline Networks, Inc.</i></p>
 									</li>  
 									<li>
-										<p>Geoffrey Rutledge-<i>CEO Healthtap, former SVP WEBMD</i></p>
+										<p>Geoffrey Rutledge - <i>CEO Healthtap, former SVP WEBMD</i></p>
 									</li> 
 									<li>
-										<p>Steve Curd-<i>Ex CIO United Healthcare</i></p>
+										<p>Steve Curd - <i>Ex CIO United Healthcare</i></p>
 									</li>  
-									<li>
-										<p>Steve Johnson-<i>CRO, Hootsuite</i></p>
+									<li>   
+										<p>Steve Johnson - <i>CRO, Hootsuite</i></p>
 									</li>  
 									<li>
 										<p>Nicola Bridges - <i>SVP Sharecare</i></p>
 									</li>
 									<li>
-										<p>Larry Logan-<i>Chiel Marketing Officer ZuluTime Corporation</i></p>
+										<p>Larry Logan - <i>Chiel Marketing Officer ZuluTime Corporation</i></p>
 									</li>   
 									<li>
-										<p>Dave Dickey-<i>Operations Executive at TPG Capital </i></p>
+										<p>Dave Dickey - <i>Operations Executive at TPG Capital </i></p>
 									</li>  
 									<li>
 										<p>Bruce Springer - <i>CEO OneHealth</i></p>
@@ -453,11 +453,7 @@
 
 		<!-- Call to action -->
 			<div id="call-action" class="12u">
-				<div class="bcg"
-						data-top-bottom="background-position: 100% 0px"
-						data-center="background-position: 90% 0px;"
-		        data-bottom-top="background-position: 80% 0px;"
-		        data-anchor-target="#news">
+				<div class="bcg">
 
 				<span class="byline"><strong>How do we pick our projects? </strong> 
 					<a href="focus.html" class="call-button">learn more</a>
