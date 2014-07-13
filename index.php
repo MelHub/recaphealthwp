@@ -466,36 +466,13 @@
 					</header>
 
 					<div class="row">
-						<div class="6u">
+						<div class="12u">
 							<article class="news">
-								<a href="posts.html" target="_blank">
-									<h5>Medtronic and Covidien merger casts light on medical device purchasing trends</h5>
-									<span class="timestamp">RECAP News 16 Jun 2014 18:40 pm</span>
-								</a>
-								<p>SAN FRANCISCO (Reuters) - Public health officials warn that whooping cough poses the greatest risk to young children as California deals with its worst outbreak of the respiratory disease since...</p>
-								<h6 class="read-more"><a href="">Read More...</a></h6>
-								<hr />
-
-								<a href="posts.html" target="_blank">
-									<h5>Medtronic and Covidien merger casts light on medical device purchasing trends</h5>
-									<span class="timestamp">RECAP News 16 Jun 2014 18:40 pm</span>
-								</a>
-								<p>NEW YORK (Reuters Health) - In a new review of past research, people who spent lots of time watching TV or otherwise sitting were more likely to be diagnosed with...</p>
-								<h6 class="read-more"><a href="">Read More...</a></h6>
-								<hr />
-
-								<a href="posts.html" target="_blank">
-									<h5>Medtronic and Covidien merger casts light on medical device purchasing trends</h5>
-									<span class="timestamp">RECAP News 16 Jun 2014 18:40 pm</span>
-								</a>
-								<p>It was always going to be hard for Castlight Health to sustain the $41 per share price that marked its public debut in April. Since then, its share price has...</p>
-								<h6 class="read-more"><a href="">Read More...</a></h6>
-								<hr />
-
+								<?php include('php_lib/feeds.php'); ?>	
 							</article>	
 						</div>
 
-						<div class="6u">
+						<!-- <div class="6u">
 							<article class="news">
 								<a href="" target="_blank">
 									<h5>Medtronic and Covidien merger casts light on medical device purchasing trends</h5>
@@ -522,7 +499,7 @@
 								<hr />
 
 							</article>	
-						</div>
+						</div> -->
 					</div>
 				</section>
 			</div>		
