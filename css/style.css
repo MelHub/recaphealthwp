@@ -308,9 +308,9 @@
 		article .greensquare-left img
 		{
 			width: 95%;
-			border: 2px solid rgba(140, 196, 66, 1);
+			border: 1px solid rgba(140, 196, 66, .5);
 			border-radius: 0.2em;
-
+			padding: .3em;
 		}
 	
 
@@ -752,9 +752,9 @@
 			position: relative;
 			display: inline-block;
 			background: rgba(255, 255, 255, 0.53);
-			color: rgba(123, 123, 123, 0.84);
+			color: rgba(85, 83, 83, 0.93);
 			text-align: center;
-			border-radius: 0.5em;
+			border-radius: 0.2em;
 			text-decoration: none;
 			padding: 0.4em 1em;
 			border: 0;
@@ -1338,6 +1338,11 @@
 			{
 				color: inherit;
 			}
+
+		#header h2 {
+			color: rgb(58, 63, 59);
+			text-shadow: 2px 3px rgba(239, 239, 239, 0.3);
+		}	
 	
 		#header .byline
 		{
@@ -1575,7 +1580,7 @@
 
 	#banner
 	{
-/*		background: #fff;*/
+		background: rgba(55, 55, 55, 0.86);
 		text-align: right;
 		padding: 5em 0 5em 0;
 		border-top: 1px rgba(192, 192, 192, 0.14) solid;
@@ -1593,7 +1598,13 @@
 	font-size: 1.7em;
 	text-align: right;
 	font-weight: 100;
+	color: darkgray;
 	}	
+
+	section#banner h3 
+	{
+	color: darkgray;
+	}
 
 
 /*********************************************************************************/
@@ -1602,7 +1613,6 @@
 
 	#quote
 	{
-	background: #373737;
 	text-align: right;
 	font-size: 1.3em;
 	padding: 2em 0 2em 0;
@@ -1628,6 +1638,7 @@
 
 	section#quote 
 	{
+	background: rgba(55, 55, 55, 0.86);
 	border-top: 2px solid rgba(140, 196, 66, 0.8); 
 	border-bottom: 2px solid rgba(140, 196,66,0.8);
 	}
@@ -1642,13 +1653,13 @@
 	{
 		/*background-color: #fff;*/
 		text-align: center;
-		border-bottom: 2px solid rgba(140, 196,66,0.8);
+		border-bottom: 2px solid rgba(140, 196,66,0.78);
 	}	
 
 	#call-action .bcg 
 	{
 		/*background: url('images/banner.gif') repeat-x center center;*/
-		background-color: rgba(140, 196, 66, 0.9);
+		background-color: rgba(83, 120, 35, 0.9);
 		padding: 4em 0 4em 0;	
 	}
 
@@ -1820,7 +1831,6 @@ article.team-pic img {
 	border-radius: .2em;
 	width: 100%;
 	height: 100%;
-	padding: .3em;
 	border: rgb(231, 231, 231) solid 1px;
 }
 
@@ -1834,7 +1844,7 @@ article.team-pic img:hover {
 }
 
 .team-extended-bio {
-	border: rgba(89, 88, 89, 0.23) solid 0.06em;
+	border: #8cc442 solid 0.06em;
 	padding: 2em;
 	border-radius: .5em;
 }	
@@ -1878,7 +1888,7 @@ article.team-pic img:hover {
 
 .advisor-extended
 {
-	border: rgba(89, 88, 89, 0.23) solid 0.06em;
+	border: #8cc442 solid 0.06em;
 	padding: 1em;
 	border-radius: .5em;
 	margin-top: 2em;
@@ -1998,7 +2008,6 @@ article.team-pic img:hover {
 	{
 		background-color: rgba(140, 196, 66, 0);
 		background-attachment: fixed;
-		border-top: 1px solid rgba(163, 163, 163, 0.23);
 		border-bottom: 1px solid rgba(163, 163, 163, 0.23);
 	}
 
@@ -2016,7 +2025,6 @@ section#vision h4 {
 	/* padding-top: 2em; */
 	color: rgb(61, 61, 61);
 	font-weight: 200;
-	border-top: 2px dotted rgba(200, 203, 195, 0.7);
 	padding: .4em;
 	margin-top: 1em;
 }
@@ -2125,10 +2133,9 @@ section#connect-social p {
 
 #connect-social .followbox 
 {
-	margin-top: .5em;
 	padding-bottom: .2em;
 	padding-top: 2.5em;
-	border-top: .1em dotted rgba(255, 255, 255, 0.12);
+	text-align: center;
 }
 
 #connect-social .followbox h5 
@@ -2140,6 +2147,11 @@ h3.social-header {
 	margin-bottom: .8em;
 }
 
+.feed 
+{
+	text-align: center;
+}
+
 
 /*********************************************************************************/
 /* Login                                                                         */
@@ -2147,7 +2159,7 @@ h3.social-header {
 
 	section#login 
 	{
-		margin-top: 6em;
+	
 	}	
 
 	section#login h5
@@ -2233,7 +2245,7 @@ h3.social-header {
 		.carousel .backward
 		{
 			position: absolute;
-			top: 50%;
+			top: 24%;
 			width: 6em;
 			height: 12em;
 			margin-top: -6em;
@@ -2258,7 +2270,7 @@ h3.social-header {
 				width: 6em;
 				height: 6em;
 /*				border-radius: 100%;*/
-				background-color: rgba(140, 196, 66, 0.4);				
+				background-color: rgba(140, 196, 66, 1);				
 				position: absolute;
 				top: 50%;
 				/*margin-top: -3em;*/
@@ -2361,7 +2373,7 @@ h3.social-header {
 	div.portfolio-extended 
 	{
 	border: rgba(89, 88, 89, 0.23) solid 0.06em;
-	padding: 3em;
+	padding: 2em;
 	border-radius: .5em;
 	}
 

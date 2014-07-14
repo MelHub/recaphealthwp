@@ -65,17 +65,19 @@
 		<!-- Banner -->
 		<section id="banner">
 			<div id="" class="-1u 10u">
-				<h3><strong>RecapHealth Ventures</strong> investment team has expertise in Canadian, US and European health care markets and is supported by an extended team of advisors with deep domain knowledge in our targeted sectors.
+				<h3><strong>RecapHealth Ventures</strong> investment <a href="#team" class="scrolly">team</a> has expertise in Canadian, US and European health care markets and is supported by an extended team of advisors with deep domain knowledge in our targeted sectors.
 				</h3>
 			</div>
 		</section>	
 		<!-- Visions -->
-			<div class="wrapper style1">
+			<div class="">
 	
 				<section id="vision" class="container special">
 
 					<header>
+						<div class="header-steeze">
 						<h2>Vision</h2>
+					</div>
 					</header>
 
 					<div class="row vision-wrap">
@@ -93,7 +95,7 @@
 							<article class="special">
 								<div class="greensquare-left">
 									<img src="images/pic-fundinggap.jpg" />
-									<h4>Fill a funding gap for entreprenuers pursuing sector focused, value added capital</h4>
+									<h4>Fill a funding gap for entrepreneurs pursuing sector focused, value added capital</h4>
 								</div>	
 							</article>	
 						</div>
@@ -125,7 +127,7 @@
 			</div>			
 
 		<!-- Features -->
-			<div class="wrapper style1">
+			<div class="">
 
 				<section id="team" class="container special">
 
@@ -135,7 +137,7 @@
 				
 					<div class="row team-pic-container">
 						<article class="-1u 2u special team-pic" data-bio="bio1">
-							<a href="team-detail.html" target="_blank"><img src="images/bio-pic-ro.jpg" alt="" /></a>
+							<a href="team-detail1.html" target="_blank"><img src="images/bio-pic-ro.jpg" alt="" /></a>
 							<header>
 								<h4><a href="#">Richard Osborn</a></h4>
 							</header>
@@ -534,7 +536,7 @@
 								</form>
 							</div>
 							<div class="-1u 5u address">
-								<h3>RecapHealth Venture</h3>
+								<h3>RecapHealth Ventures</h3>
 								<h4>Address</h4>
 								<h4>Suite 300 128 W. Hastings <br>
 								Vancouver BC V6B 1G8 </h4> <br>
@@ -552,32 +554,31 @@
 		<!-- Footer -->
 			<div id="footer">
 				<div class="container">
-					<div class="row">
 						<!-- Social Feeds -->
-							<section id="connect-social" class="8u">
-								<div class="11u	">
-									<h3>Twitter / Linkedin</h3>
+							<section id="connect-social">
+								<div class="row">
+								<div class="4u feed">
+									<h3 class="social-header">Twitter / Linkedin</h3>
 									<h5>Recap Health</h5>
 									<p>Support the scaling of innovative solutions to global challenges</p>
 									<span class="timestamp">16 Jun 2014 18:40 pm</span>
-									<hr>
 									<h5>Recap Health</h5>
 									<p>Support the scaling of innovative solutions to global challenges</p>
 									<span class="timestamp">16 Jun 2014 18:40 pm</span>
-									<hr>
 									<h5>Recap Health</h5>
 									<p>Support the scaling of innovative solutions to global challenges</p>
 									<span class="timestamp">16 Jun 2014 18:40 pm</span>
-									<div class="followbox">
+								</div>	
+								<div class="4u followbox">
 									<ul class="icons">
-										<h5>Stay Connected</h5>
+										<h3 class="social-header">Stay Connected</h3>
 										<h4>Follow Recap Health Ventures on Twitter and LinkedIn</h4>
 										<li><a href="#" class="fa fa-linkedin solo"><span>Linkedin</span></a></li>
 										<li><a href="https://twitter.com/RecapHealth" class="fa fa-twitter solo"><span>Twitter</span></a></li>
 									</ul>
 								</div>
-								</div>
-							</section>
+								
+						
 
 						<!-- Member Log In -->
 							<section id="login" class="4u">
@@ -591,7 +592,9 @@
 										<input type="submit" class="login-button" value="Sign In" />
 									</div>
 								</div>
+								</div>
 							</section>
+						</section>	
 
 					</div>
 
