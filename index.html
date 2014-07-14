@@ -535,7 +535,7 @@
 							</div>
 							<div class="-1u 5u address">
 								<h3>RecapHealth Venture</h3>
-								<h4>Address </h4>
+								<h4><strong>Address</strong></h4>
 								<h4>Suite 300 128 W. Hastings <br>
 								Vancouver BC V6B 1G8 </h4> <br>
 								<h4>E-mail</h4>
