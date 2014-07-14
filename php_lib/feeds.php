@@ -1,6 +1,13 @@
 <?php
   # define script parameters
-  $BLOGURLS   = array("http://medcitynews.com/feed/", "http://mobihealthnews.com/feed");
+  $BLOGURLS   = array(
+		"http://medcitynews.com/feed/", 
+		"http://mobihealthnews.com/feed",
+		'http://www.visioncritical.com/blog/feed',
+		'http://www.thoughtwire.com/c/blogs/rss?companyId=10131',
+		'http://yyoga.ca/blog/rss'
+
+	);
   $NUMITEMS   = 5;
   $TIMEFORMAT = "j F Y, g:ia";
   $CACHEFILE  = "/home/rhv/tmp/" . md5(implode("|",$BLOGURLS));

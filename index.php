@@ -10,10 +10,10 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" href="favicon.ico"/>
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style-desktop.css" />
 		<noscript>
-			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/skel-noscript.css" />
-			<link rel="stylesheet" href="css/style-desktop.css" />
 			<link rel="stylesheet" href="css/style-noscript.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
@@ -218,7 +218,8 @@
 							<h5><a href="team-detail5.html" class="">Read More...</a></h5>
 						</div>
 
-					<div class="-1u 10u advisor-extended clearfix">
+					<div class="row">
+						<div class="-1u 5u advisor-extended clearfix">
 								<ul class="advisorsCan">
 									<h5>Canadian Advisory board members</h5>
 									<li>
@@ -240,7 +241,7 @@
 										<p>Alexandra Greenhill - <i>ex Pres. BCMA </i></p>
 									</li>
 									<li>
-										<p>Rebecca Palm - <i>SVP M&A AthenaHealth</i></p>
+										<p>Rebecca Palm - <i>Co Patient SVP M&A AthenaHealth</i></p>
 									</li>
 									<li>
 										<p>James Tansey-<i>ED ISIS at UBC</i></p>
@@ -248,7 +249,18 @@
 									<li>
 										<p>Bob Wilson - <i>Founder/CEO Wilson Banwell (EAP)</i></p>
 									</li>
+									<li>
+										<p>Alex Kroon - <i>Ex CEO CMN/EuropAssist</i></p>
+									</li>
+									<li>
+										<p>Prateek Dwivedi - <i>MARS Health Lead and ex CIO Mt Sinai Hospital</i></p>
+									</li>
+									<li>   
+										<p>Steve Johnson - <i>CRO, Hootsuite</i></p>
+									</li>  
 								</ul>	
+						</div>
+						<div class="-1u 5u advisor-extended clearfix">
 								<ul class="advisorsUs">
 									<h5>US Advisory board members</h5>
 									<li>
@@ -269,14 +281,11 @@
 									<li>
 										<p>Steve Curd - <i>Ex CIO United Healthcare</i></p>
 									</li>  
-									<li>   
-										<p>Steve Johnson - <i>CRO, Hootsuite</i></p>
-									</li>  
 									<li>
 										<p>Nicola Bridges - <i>SVP Sharecare</i></p>
 									</li>
 									<li>
-										<p>Larry Logan - <i>Chiel Marketing Officer ZuluTime Corporation</i></p>
+										<p>Larry Logan - <i>Ex VP Marketing WebMD</i></p>
 									</li>   
 									<li>
 										<p>Dave Dickey - <i>Operations Executive at TPG Capital </i></p>
@@ -291,7 +300,8 @@
 										<p>Graham Brooks - <i>MD .406 Ventures</i></p>
 									</li>	
 								</ul>
-					</div>			
+						</div>			
+					</div>
 
 				</section>
 
@@ -396,13 +406,13 @@
 
 				<div class="-1u 10u portfolio-extended hidden" id="portfolio2">
 					<p>
-						Tyze Personal Networks is a globally recognized social enterprise "B" Corp which provides technology solutions to help families, friends and care professionals to work together to improve health outcomes for vulnerable populations including the elderly, disabled and chronically ill. Tyze is a mission based organization that works with leading foundations and non profits as well as more traditional financial and commercial partners. RecapHealthVentures' Rich Osborn acted as Interim President and Chief Operating Officer while leading the company’s financing efforts, UK expansion and strategic partnership relationships. Tyze was sold to St Elizabeth Home Health Care, One of Canada's largest home care providers, and itself a social enterprise, in December 2013.  
+						Tyze Personal Networks is a globally recognized social enterprise &quot;B&quot; Corp which provides technology solutions to help families, friends and care professionals to work together to improve health outcomes for vulnerable populations including the elderly, disabled and chronically ill. Tyze is a mission based organization that works with leading foundations and non profits as well as more traditional financial and commercial partners. RecapHealthVentures' Rich Osborn acted as Interim President and Chief Operating Officer while leading the company's financing efforts, UK expansion and strategic partnership relationships. Tyze was sold to St Elizabeth Home Health Care, One of Canada's largest home care providers, and itself a social enterprise, in December 2013.  
 					</p>
 				</div>
 
 				<div class="-1u 10u portfolio-extended hidden" id="portfolio3">
 					<p>
-						Thoughtwire’s software delivers immediate business value by rapidly interconnecting software, people and information they need in a more adaptable, scaleable and focused way. The Thoughtwire Unified Experience Platform was purpose built to bridge the user experience, information and workflow gaps that plague the healthcare system. Thoughtwire has received many industry awards and recognition and was recently named one of Canada's Top 25 ICT Companies.   
+						Thoughtwire's software delivers immediate business value by rapidly interconnecting software, people and information they need in a more adaptable, scaleable and focused way. The Thoughtwire Unified Experience Platform was purpose built to bridge the user experience, information and workflow gaps that plague the healthcare system. Thoughtwire has received many industry awards and recognition and was recently named one of Canada's Top 25 ICT Companies.   
 					</p>
 				</div>
 
@@ -426,7 +436,7 @@
 
 				<div class="-1u 10u portfolio-extended hidden" id="portfolio7">
 					<p>
-						YYoga is a rapidly growing chain of yoga and wellness centers. Headquartered in Vancouver, BC YYoga was founded by Terry McBride a well known Canadian music entrepreneur. YYoga centers offer a ‘spa-like’ experience with yoga, fitness and wellness services. RecapHealthVentures acted as investor and advisor to YYoga in its recent $13M financing, which included new equity from private equity funds and high net worth individuals, as well as debt conversion and the acquisition of three additional centers. YYoga is now Canada's largest yoga chain with operations in BC and Ontario. 
+						YYoga is a rapidly growing chain of yoga and wellness centers. Headquartered in Vancouver, BC YYoga was founded by Terry McBride a well known Canadian music entrepreneur. YYoga centers offer a 'spa-like' experience with yoga, fitness and wellness services. RecapHealthVentures acted as investor and advisor to YYoga in its recent $13M financing, which included new equity from private equity funds and high net worth individuals, as well as debt conversion and the acquisition of three additional centers. YYoga is now Canada's largest yoga chain with operations in BC and Ontario. 
 					</p>
 				</div>
 
@@ -454,7 +464,7 @@
 			</div>
 		</section>	
 
-		<!-- Call to action -->
+		<!-- Call to action
 			<div id="call-action" class="12u">
 				<div class="bcg">
 
@@ -462,7 +472,7 @@
 					<a href="focus.html" class="call-button">learn more</a>
 				</span>
 			</div>
-		</div>
+		</div> -->
 
 		<!-- News -->
 			<div class="wrapper style1">
@@ -600,7 +610,7 @@
 
 					<div class="copyright">
 						<ul class="menu">
-							<li>&copy; Recap Health Ventures. All rights reserved.</li>
+							<li>&copy; RecapHealth Ventures. All rights reserved.</li>
 							<li>A Lighthouse Website - Design: Melissa Hubert</a></li>
 						</ul>
 					</div>

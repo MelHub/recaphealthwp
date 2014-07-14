@@ -1988,7 +1988,7 @@ article.team-pic img:hover {
 	.about-recap p
 	{
 		margin-top: 8%;
-		font-size: 2em;
+		font-size: 1.2em;
 		text-align: left;
 		color: rgb(85, 81, 81);
 		text-shadow: 2px 2px rgba(255, 255, 255, 0.56);
@@ -2336,7 +2336,7 @@ h3.social-header {
 		.carousel article
 		{
 			display: inline-block;
-			width: 20%;
+			width: 15%;
 			/*background: #fff;*/
 			text-align: center;
 			padding: 0 1em 0em 1em;
@@ -2382,6 +2382,10 @@ h3.social-header {
 	{
 		padding-bottom: 3em;
 		background-color: rgba(255, 255, 255, 1);
+	}
+
+	.portfolio-extended p {
+		font-size: 0.9em;
 	}
 
 	.clearfix:after {
