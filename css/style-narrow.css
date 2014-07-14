@@ -33,6 +33,23 @@ article.team-pic img {
   margin-bottom: 1em;
   }
 
+  ul.advisorsCan
+  {
+    margin:0 0 8% 1%;
+  }
+
+  ul.advisorsUs
+  {
+  margin:2% 0 8% 1%;
+  }
+
+  ul.advisorsCan, ul.advisorsUs 
+  {
+    text-align: left;
+    float: none;
+    margin-bottom: 2%;
+  }
+
 
 /*********************************************************************************/
 /*          About                                                                 */

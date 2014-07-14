@@ -325,6 +325,8 @@
 			letter-spacing: 0.2em;
 		}
 
+
+
 	/* ------------ Below: trying to get some sexy lil green lines next to the headers; */
 
 	/*	section.special header h2:first-child:before,
@@ -1576,6 +1578,8 @@
 /*		background: #fff;*/
 		text-align: right;
 		padding: 5em 0 5em 0;
+		border-top: 1px rgba(192, 192, 192, 0.14) solid;
+		border-bottom: 1px rgba(192, 192, 192, 0.14) solid;
 	}
 
 	#banner strong 
@@ -1649,8 +1653,8 @@
 	}
 
 	#call-action span.byline strong {
-		font-weight: 700;
 		letter-spacing: .02em;
+		font-size: 1.5em;
 	}
 /*********************************************************************************/
 /* News                                                                      */
@@ -1726,7 +1730,6 @@
 
 	.content-image 
 	{
-		text-align: center;
 		border-radius: .7em;
 		margin-bottom: 1em;
 	}	
@@ -1735,7 +1738,9 @@
 	{
 		border-radius: .3em;
 		border: 1px solid rgba(140, 196, 66, 0.71);
-		margin: 1em;
+		margin: 0 1em 1em 1em;
+		float: left;
+
 	}
 
 /*********************************************************************************/
@@ -1812,9 +1817,11 @@ header.blog-header span.timestamp
 }
 
 article.team-pic img {
-	border-radius: .3em;
+	border-radius: .2em;
 	width: 100%;
 	height: 100%;
+	padding: .3em;
+	border: rgb(231, 231, 231) solid 1px;
 }
 
 article.team-pic img:hover {
@@ -1828,7 +1835,7 @@ article.team-pic img:hover {
 
 .team-extended-bio {
 	border: rgba(89, 88, 89, 0.23) solid 0.06em;
-	padding: 1em 1em 3em;
+	padding: 2em;
 	border-radius: .5em;
 }	
 
@@ -1838,7 +1845,7 @@ article.team-pic img:hover {
 
 .team-pic-container
 {
-	margin-top: 4em;
+	margin-top: 2em;
 	margin-bottom: 2em;
 	padding-left: 2em;
 }
@@ -1900,6 +1907,8 @@ article.team-pic img:hover {
 
 	ul.advisorsCan {
 		text-align: right;
+		margin-right: 2em;
+		margin-left: 11%;
 	}
 
 	ul.advisorsUs {
@@ -2106,6 +2115,12 @@ section#connect-social
 section#connect-social h5 
 {
 	color: rgba(140, 196, 66,1);
+	font-size: small;
+}
+
+section#connect-social p {
+	font-size: small;
+	margin-bottom: 0;
 }
 
 #connect-social .followbox 
@@ -2114,12 +2129,15 @@ section#connect-social h5
 	padding-bottom: .2em;
 	padding-top: 2.5em;
 	border-top: .1em dotted rgba(255, 255, 255, 0.12);
-	border-bottom: .1em dotted rgba(255, 255, 255, 0.12);
 }
 
 #connect-social .followbox h5 
 {
 	margin-bottom: .9em;
+}
+
+h3.social-header {
+	margin-bottom: .8em;
 }
 
 
@@ -2343,7 +2361,7 @@ section#connect-social h5
 	div.portfolio-extended 
 	{
 	border: rgba(89, 88, 89, 0.23) solid 0.06em;
-	padding: 1em;
+	padding: 3em;
 	border-radius: .5em;
 	}
 
