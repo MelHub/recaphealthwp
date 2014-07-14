@@ -471,7 +471,7 @@
 
 					<div class="row">
 						<div class="12u">
-							<article class="news">
+							<article class="news box">
 								<?php include('php_lib/feeds.php'); ?>	
 							</article>	
 						</div>
