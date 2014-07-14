@@ -63,11 +63,12 @@
 			</div>
 			
 		<!-- Banner -->
-			<div id="banner" class="-1u 10u">
+		<section id="banner">
+			<div id="" class="-1u 10u">
 				<h3><strong>RecapHealth Ventures</strong> investment team has expertise in Canadian, US and European health care markets and is supported by an extended team of advisors with deep domain knowledge in our targeted sectors.
 				</h3>
 			</div>
-
+		</section>	
 		<!-- Visions -->
 			<div class="wrapper style1">
 	
@@ -445,7 +446,7 @@
 		<!-- Quote -->
 		<section id="quote">
 			<div id="quote" class="-1u 10u">
-				<h3><strong>&quot;Gentlemen, We have run out of money. It's time to start thinking&quot;</strong> </h3>
+				<h3>&quot;Gentlemen, We have run out of money. It's time to start thinking&quot;</h3>
 				<br>	
 				<h4>Ernest Rutherford quoted by Health Minister Deb Matthews in 2014</h4>
 			</div>
@@ -459,6 +460,7 @@
 					<a href="focus.html" class="call-button">learn more</a>
 				</span>
 			</div>
+		</div>
 
 		<!-- News -->
 			<div class="wrapper style1">
@@ -471,7 +473,7 @@
 
 					<div class="row">
 						<div class="12u">
-							<article class="news box">
+							<article class="news">
 								<?php include('php_lib/feeds.php'); ?>	
 							</article>	
 						</div>
@@ -532,13 +534,13 @@
 								</form>
 							</div>
 							<div class="-1u 5u address">
-								<h5>RecapHealth Venture</h5>
-								<h5>Address: </h5>
+								<h3>RecapHealth Venture</h3>
+								<h4>Address </h4>
 								<h4>Suite 300 128 W. Hastings <br>
 								Vancouver BC V6B 1G8 </h4> <br>
-								<h5>E-mail:</h5>
+								<h4>E-mail</h4>
 								<h4>kaitlyn@recaphealthventures.com </h4>
-								<h5>Telephone:</h5><h4> 604.683.8999 </h4>
+								<h4>Telephone</h4><h4> 604.683.8999 </h4>
 							</div>
 						</div>
 	
