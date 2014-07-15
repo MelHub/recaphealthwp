@@ -51,9 +51,9 @@
 							<a href="#header" class="scrolly"><img src="images/recap-logo.png"/></a>
 						<ul>
 							<li><a href="#header" class="scrolly">Home</a></li>
+							<li><a href="#about-position" class="scrolly">About</a></li>
 							<li><a href="#vision" class="scrolly">Vision</a></li>
 							<li><a href="#team" class="scrolly">Team</a></li>
-							<li><a href="#about-position" class="scrolly">About</a></li>
 							<li><a href="#portfolio" class="scrolly">Portfolio</a></li>
 							<li><a href="#news" class="scrolly">News</a></li>
 							<li><a href="#contact" class="scrolly">Contact</a></li>
@@ -241,9 +241,6 @@
 										<p>Alexandra Greenhill - <i>ex Pres. BCMA </i></p>
 									</li>
 									<li>
-										<p>Rebecca Palm - <i>Co Patient SVP M&A AthenaHealth</i></p>
-									</li>
-									<li>
 										<p>James Tansey-<i>ED ISIS at UBC</i></p>
 									</li>
 									<li>
@@ -281,6 +278,9 @@
 									<li>
 										<p>Steve Curd - <i>Ex CIO United Healthcare</i></p>
 									</li>  
+									<li>
+										<p>Rebecca Palm - <i>Co Patient SVP M&A AthenaHealth</i></p>
+									</li>
 									<li>
 										<p>Nicola Bridges - <i>SVP Sharecare</i></p>
 									</li>
