@@ -41,7 +41,7 @@
 
       $this->options = array_merge(
       array(
-          'consumer_key'          => '',
+          'consumer_key'          => 'ZFtxyDjABIsWrni5G4Qu72Wfr',
           'consumer_secret'       => '',
           'access_token'          => '',
           'access_token_secret'   => '',
