@@ -1927,7 +1927,7 @@ h5.team-swiper {
 	ul.advisorsCan {
 		text-align: right;
 		margin-right: 2em;
-		margin-left: 11%;
+		margin-left: .1%;
 	}
 
 	ul.advisorsUs {
@@ -1999,7 +1999,7 @@ h5.team-swiper {
 	.about-recap p
 	{
 		margin-top: 30%;
-		font-size: 1.2em;
+		font-size: 1.3em;
 		text-align: left;
 		color: rgb(85, 81, 81);
 		text-shadow: 2px 2px rgba(255, 255, 255, 0.56);
