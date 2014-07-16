@@ -42,10 +42,10 @@
       $this->options = array_merge(
       array(
           'consumer_key'          => 'ZFtxyDjABIsWrni5G4Qu72Wfr',
-          'consumer_secret'       => '',
-          'access_token'          => '',
-          'access_token_secret'   => '',
-          'twitter_screen_name'   => '',
+          'consumer_secret'       => '1epBIP4j1xW5NEkzUDVCBNuTeSOqH4mwLPz2rNN5HAhMtcAqEI',
+          'access_token'          => '2463516210-1L5qntrOplJ81kVhyhJynHtXNTTvDR2jWOdhlcH',
+          'access_token_secret'   => 'fHFAKn1oPd8PnL6lsKfCCH2W4Z8y2lAleax7u3uCbPpEb',
+          'twitter_screen_name'   => 'recaphealth',
           'cache_file'            => dirname(__FILE__) . '/cache/twitter.txt', // Where on the server to save the cached formatted tweets
           'cache_file_raw'        => dirname(__FILE__) . '/cache/twitter-array.txt', // Where on the server to save the cached raw tweets
           'cachetime'             => 60 * 60, // Seconds to cache feed (1 hour).

@@ -1749,7 +1749,7 @@
 	{
 		border-radius: .3em;
 		border: 1px solid rgba(140, 196, 66, 0.71);
-		margin: 0 1em 1em 1em;
+		margin: 0 1em 4em 1em;
 		float: left;
 
 	}
@@ -1916,7 +1916,7 @@ article.team-pic img:hover {
 	}
 
 	ul.advisorsCan {
-		text-align: right;
+		text-align: left;
 		margin-right: 2em;
 		margin-left: 11%;
 	}
@@ -1941,6 +1941,14 @@ article.team-pic img:hover {
 	ul.advisorsUs li 
 	{
 	margin-bottom: -0.99em;
+	}
+
+	ul.advisorsCan li p strong,
+	ul.advisorsUs li p strong
+	{
+		color: #444;
+		text-shadow: none;
+		font-weight: 600;
 	}
 
 /*********************************************************************************/
@@ -2404,7 +2412,7 @@ h3.social-header {
 /*********************************************************************************/
 
 .portfolio-detail-logo img {
-	margin-bottom: 2em;
+	margin-bottom: 4em;
 }
 
 .portfolio-detail img
