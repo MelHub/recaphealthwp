@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Recap Health Ventures</title>
+		<title>RecapHealth Ventures</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -34,7 +34,7 @@
 				<!-- Inner -->
 					<div class="inner">
 						<header>
-							<!-- <h1><a href="#" id="logo">Recap Health</a></h1> -->
+							<!-- <h1><a href="#" id="logo">RecapHealth</a></h1> -->
 							<h2>
 								<strong>RecapHealth Ventures</strong> is a unique investment fund delivering financial and social impact by investing in global health care innovation
 							</h2>
@@ -50,9 +50,9 @@
 							<a href="#header" class="scrolly"><img src="images/recap-logo.png"/></a>
 						<ul>
 							<li><a href="#header" class="scrolly">Home</a></li>
-							<li><a href="#about-position" class="scrolly">About</a></li>
 							<li><a href="#vision" class="scrolly">Vision</a></li>
 							<li><a href="#team" class="scrolly">Team</a></li>
+							<li><a href="#about-position" class="scrolly">About</a></li>
 							<li><a href="#portfolio" class="scrolly">Portfolio</a></li>
 							<li><a href="#news" class="scrolly">News</a></li>
 							<li><a href="#contact" class="scrolly">Contact</a></li>
@@ -67,251 +67,7 @@
 				<h3><strong>RecapHealth Ventures</strong> investment <a href="#team" class="scrolly">team</a> has expertise in Canadian, US and European health care markets and is supported by an extended team of advisors with deep domain knowledge in our targeted sectors.
 				</h3>
 			</div>
-<<<<<<< HEAD
-		</section>	
-		<!-- Visions -->
-			<div class="">
-	
-				<section id="vision" class="container special">
-
-					<header>
-						<div class="header-steeze">
-						<h2>Vision</h2>
-					</div>
-					</header>
-
-					<div class="row vision-wrap">
-						<div class="3u">
-							<article class="special">
-								<div class="greensquare-right">
-									<img src="images/pic-socialimpact.jpg" />
-									<h4>To deliver sector leading financial returns and meaningful social impact.
-									</h4>
-								</div>
-							</article>	
-						</div>
-
-						<div class="3u">
-							<article class="special">
-								<div class="greensquare-left">
-									<img src="images/pic-fundinggap.jpg" />
-									<h4>Fill a funding gap for entrepreneurs pursuing sector focused, value added capital</h4>
-								</div>	
-							</article>	
-						</div>
-					<!-- </div> -->
-
-						<!-- <div class="row"> -->
-							<div class="3u">
-								<article class="special">
-									<div class="greensquare-right">
-										<img src="images/pic-ecosystem.jpg" />
-										<h4>To catalyze capital across the return spectrum (commercial to philanthropic) to improve the heath care ecosystem</h4>
-									</div>
-								</article>	
-							</div>
-
-							<div class="3u">
-								<article class="special">
-									<div class="greensquare-left">
-										<img src="images/pic-scalesupport.jpg" />
-										<h4>Support the scaling of innovative solutions to global challenges</h4>
-									</div>			
-								</article>	
-							</div>
-						</div>	
-						
-						<div id="vision-target"></div>
-
-				</section>
-			</div>			
-
-		<!-- Features -->
-			<div class="">
-
-				<section id="team" class="container special">
-
-					<header>
-						<h2>Meet the team</h2>
-					</header>
-				
-					<div class="row team-pic-container">
-						<article class="-1u 2u special team-pic" data-bio="bio1">
-							<a href="team-detail1.html" target="_blank"><img src="images/bio-pic-ro.jpg" alt="" /></a>
-							<header>
-								<h4><a href="#">Richard Osborn</a></h4>
-							</header>
-						</article>
-
-						<article class="2u special team-pic" data-bio="bio2">
-							<a href="team-detail2.html" target="_blank"><img src="images/bio-pic-sg.jpg" alt="" /></a>
-							<header>
-								<h4><a href="team-detail2.html">Dr.Samuel J Gutman</a></h4>
-							</header>
-						</article>
-
-						<article class="2u special team-pic" data-bio="bio3">
-							<a href="team-detail3.html" target="_blank"><img src="images/bio-pic-ms.jpg" alt="" /></a>
-							<header>
-								<h4><a href="team-detail3.html">Matthew Moore</a></h4>
-							</header>
-						</article>
-
-						<article class="2u special team-pic" data-bio="bio4">
-							<a href="team-detail4.html" target="_blank"><img src="images/bio-pic-jt.jpg" alt="" /></a>
-							<header>
-								<h4><a href="#">Jose Toussaint</a></h4>
-							</header>
-						</article>
-
-						<article class="2u special team-pic" data-bio="bio5">
-								<a href="team-detail5.html" target="_blank"><img src="images/bio-pic-kb.jpg" alt="" /></a>
-								<header>
-									<h4><a href="#">Kaitlyn Burke</a></h4>
-								</header>
-						</article>
-
-						<div id="team-scroll">
-							<button> -&gt; </button>
-						</div>	
-
-					</div>
-
-						<!-- Bio1 -->
-						<div class="-1u 10u team-extended-bio" id="bio1">
-							<p>
-								Richard started the predecessor firm to RecapHealth Ventures in 2011 to make investments supporting the significant number of high potential innovations originating from existing health care organizations as well as from groups or entrepreneurs new to the system. While both groups were producing great technology or service offerings; commercialization experience, scaling resources and access to value added capital were often cited as significant barriers to success. Discussions with individuals across the sector lamented the relative lack of financial partners with health care sector focus, particularly from those with knowledge of the Canadian market.
-							</p>
-							<h5><a href="team-detail.html" class="">Read More...</a></h5>	
-						</div>
-
-						<!-- Bio2 -->
-						<div class="-1u 10u team-extended-bio hidden" id="bio2">
-							<p>
-								Dr. Gutman is a Venture Partner with RecapHealth Ventures. A practicing emergency room physician and accomplished entrepreneur, Dr. Gutman is the rare combination of an experienced medical clinician who also understands business and has a proven track record of success.
-							</p>
-							<h5><a href="team-detail2.html" class="">Read More...</a></h5>
-							</ul>	
-						</div>
-
-						<!-- Bio3 -->
-						<div class="-1u 10u team-extended-bio hidden" id="bio3">
-							<p>
-								Matthew is an experienced internet executive with over 20 years of focus on partnership and revenue creation. Matthew was instrumental in the creation and hyper growth of such well known companies as Netscape Communications, Healtheon and WebMD . Specifically Matthew founded and ran European operations for Netscape and co-founded the consumer focused operations at Healtheon and WebMD. Matthew has had direct operating responsibility for sales, marketing and business development groups from launch to in excess of $250M in annual revenue and has managed cross border teams around the globe.
-							</p>
-							<h5><a href="team-detail3.html" class="">Read More...</a></h5>	
-						</div>
-
-						<!-- Bio4 -->
-						<div class="-1u 10u team-extended-bio hidden" id="bio4">
-							<p>
-								Jose is an Associate with RecapHealth Ventures. He focuses on screening new investment opportunities as well as leading the company's efforts in collecting a pan-Canadian data set of all companies involved in health and wellness.
-							</p>
-							<h5><a href="team-detail4.html" class="">Read More...</a></h5>	
-						</div>
-
-						<!-- Bio5 -->
-						<div class="-1u 10u team-extended-bio hidden" id="bio5">
-							<p>
-								Kaitlyn manages the various RecapHealth marketing and communication efforts including online, social, print and event related activities. Kaitlyn has experience in the health and wellness sectors as well as competitive athletics as an NCAA varsity athlete.
-							</p>
-							<h5><a href="team-detail5.html" class="">Read More...</a></h5>
-						</div>
-
-					<div class="row">
-						<div class="-1u 5u advisor-extended clearfix">
-								<ul class="advisorsCan">
-									<h5>Canadian Advisory board members</h5>
-									<li>
-										<p>Kip Woodward - <i>Chair Vancouver Coastal Health Authority</i></p>
-									</li>
-									<li>
-										<p>Graham Whitmarsh - <i>BC Deputy Health and Finance Minister</i></p>
-									</li>
-									<li>
-										<p>Dale Tiessen - <i>GM, GE Healthcare</i></p>
-									</li>
-									<li>
-										<p>Ida Goodreau - <i>ex CEO LifeLabs, ex CEO Vancouver Coastal</i></p>
-									</li>
-									<li>
-										<p>John DeHart - <i>CEO NurseNextDoor</i></p>
-									</li>
-									<li>
-										<p>Alexandra Greenhill - <i>ex Pres. BCMA </i></p>
-									</li>
-									<li>
-										<p>James Tansey-<i>ED ISIS at UBC</i></p>
-									</li>
-									<li>
-										<p>Bob Wilson - <i>Founder/CEO Wilson Banwell (EAP)</i></p>
-									</li>
-									<li>
-										<p>Alex Kroon - <i>Ex CEO CMN/EuropAssist</i></p>
-									</li>
-									<li>
-										<p>Prateek Dwivedi - <i>MARS Health Lead and ex CIO Mt Sinai Hospital</i></p>
-									</li>
-									<li>   
-										<p>Steve Johnson - <i>CRO, Hootsuite</i></p>
-									</li>  
-								</ul>	
-						</div>
-						<div class="-1u 5u advisor-extended clearfix">
-								<ul class="advisorsUs">
-									<h5>US Advisory board members</h5>
-									<li>
-										<p>Robin Palley - <i> SVP Digitas</i></p>
-									</li>
-									<li>
-										<p>Karl Zachar - <i>SVP Epocrates, SVP AthenaHealth, Goldman Sachs</i><p>
-									</li> 
-									<li>
-										<p>Gary Stuart - <i>Executive Vice President at Emdeon Business Services</i></p>
-									</li>  
-									<li>
-										<p>Paul Sonnenschein - <i>Vice President, Strategic Accounts at Healthline Networks, Inc.</i></p>
-									</li>  
-									<li>
-										<p>Geoffrey Rutledge - <i>CEO Healthtap, former SVP WEBMD</i></p>
-									</li> 
-									<li>
-										<p>Steve Curd - <i>Ex CIO United Healthcare</i></p>
-									</li>  
-									<li>
-										<p>Rebecca Palm - <i>Co Patient SVP M&A AthenaHealth</i></p>
-									</li>
-									<li>
-										<p>Nicola Bridges - <i>SVP Sharecare</i></p>
-									</li>
-									<li>
-										<p>Larry Logan - <i>Ex VP Marketing WebMD</i></p>
-									</li>   
-									<li>
-										<p>Dave Dickey - <i>Operations Executive at TPG Capital </i></p>
-									</li>  
-									<li>
-										<p>Bruce Springer - <i>CEO OneHealth</i></p>
-									</li>   
-									<li>
-										<p>John Danaher - <i>CEO Reed Elsevier</i></p>
-									</li>
-									<li>
-										<p>Graham Brooks - <i>MD .406 Ventures</i></p>
-									</li>	
-								</ul>
-						</div>			
-					</div>
-
-				</section>
-
-			</div>			
-
-			
-		<!-- Main -->
-=======
 		</section>
->>>>>>> 9aec3f486399e80f15e067e444ee28e372c1931e
 
 		<!-- About -->
 		<div id="about-position"></div>
@@ -803,20 +559,20 @@
 								<div class="row">
 								<div class="4u feed">
 									<h3 class="social-header">Twitter / Linkedin</h3>
-									<h5>Recap Health</h5>
+									<h5>RecapHealth</h5>
 									<p>Support the scaling of innovative solutions to global challenges</p>
 									<span class="timestamp">16 Jun 2014 18:40 pm</span>
-									<h5>Recap Health</h5>
+									<h5>RecapHealth</h5>
 									<p>Support the scaling of innovative solutions to global challenges</p>
 									<span class="timestamp">16 Jun 2014 18:40 pm</span>
-									<h5>Recap Health</h5>
+									<h5>RecapHealth</h5>
 									<p>Support the scaling of innovative solutions to global challenges</p>
 									<span class="timestamp">16 Jun 2014 18:40 pm</span>
 								</div>	
 								<div class="4u followbox">
 									<ul class="icons">
 										<h3 class="social-header">Stay Connected</h3>
-										<h4>Follow Recap Health Ventures on Twitter and LinkedIn</h4>
+										<h4>Follow RecapHealth Ventures on Twitter and LinkedIn</h4>
 										<li><a href="#" class="fa fa-linkedin solo"><span>Linkedin</span></a></li>
 										<li><a href="https://twitter.com/RecapHealth" class="fa fa-twitter solo"><span>Twitter</span></a></li>
 									</ul>
