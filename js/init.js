@@ -206,6 +206,7 @@
 					leftLimit,
 					rightLimit,
 					itemWidth,
+					eachWidth,
 					reelWidth,
 					timerId;
 
@@ -221,23 +222,20 @@
 							timerId = window.setInterval(function() {
 								var x = $items.filter('.loading'), xf = x.first();
 								
-								if (x.length <= limit)
-								{
+								if (x.length <= limit) {
 									window.clearInterval(timerId);
 									$items.removeClass('loading');
 									return;
 								}
 								
-								if (_IEVersion < 10)
-								{
+								if (_IEVersion < 10) {
 									xf.fadeTo(750, 1.0);
 									window.setTimeout(function() {
 										xf.removeClass('loading');
 									}, 50);
-								}
-								else
+								} else {
 									xf.removeClass('loading');
-								
+								}
 							}, helios_settings.carousels.fadeDelay);
 						}, 50);
 					}
@@ -247,6 +245,7 @@
 						pos = 0;
 						rightLimit = (-1 * reelWidth) + $window.width();
 						leftLimit = 0;
+						eachWidth = $items.first().width();
 						$t._updatePos();
 					};
 				
@@ -263,8 +262,7 @@
 							timerId = window.setInterval(function() {
 								pos -= helios_settings.carousels.speed;
 
-								if (pos <= rightLimit)
-								{
+								if (pos <= rightLimit) {
 									window.clearInterval(timerId);
 									pos = rightLimit;
 								}
@@ -284,8 +282,7 @@
 							timerId = window.setInterval(function() {
 								pos += helios_settings.carousels.speed;
 
-								if (pos >= leftLimit)
-								{
+								if (pos >= leftLimit) {
 									window.clearInterval(timerId);
 									pos = leftLimit;
 								}

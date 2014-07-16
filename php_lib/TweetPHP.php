@@ -49,7 +49,7 @@
           'cache_file'            => dirname(__FILE__) . '/cache/twitter.txt', // Where on the server to save the cached formatted tweets
           'cache_file_raw'        => dirname(__FILE__) . '/cache/twitter-array.txt', // Where on the server to save the cached raw tweets
           'cachetime'             => 60 * 60, // Seconds to cache feed (1 hour).
-          'tweets_to_display'     => 10, // How many tweets to fetch
+          'tweets_to_display'     => 3, // How many tweets to fetch
           'ignore_replies'        => true, // Ignore @replies
           'ignore_retweets'       => true, // Ignore retweets
           'twitter_style_dates'   => false, // Use twitter style dates e.g. 2 hours ago
@@ -57,12 +57,12 @@
           'date_format'           => '%I:%M %p %b %e%O', // The defult date format e.g. 12:08 PM Jun 12th. See: http://php.net/manual/en/function.strftime.php
           'date_lang'             => null, // Language for date e.g. 'fr_FR'. See: http://php.net/manual/en/function.setlocale.php
           'format'                => 'html', // Can be 'html' or 'array'
-          'twitter_wrap_open'     => '<h2>Latest tweets</h2><ul id="twitter">',
-          'twitter_wrap_close'    => '</ul>',
-          'tweet_wrap_open'       => '<li><span class="status">',
-          'meta_wrap_open'        => '</span><span class="meta"> ',
+          'twitter_wrap_open'     => '<h3 class="social-header">Twitter / LinkedIn</h3>',
+          'twitter_wrap_close'    => '',
+          'tweet_wrap_open'       => '<h5>RecapHealth</h5><p>',
+          'meta_wrap_open'        => '<br><span class="timestamp"> ',
           'meta_wrap_close'       => '</span>',
-          'tweet_wrap_close'      => '</li>',
+          'tweet_wrap_close'      => '</p>',
           'error_message'         => 'Oops, our twitter feed is unavailable right now.',
           'error_link_text'       => 'Follow us on Twitter',
           'debug'                 => false

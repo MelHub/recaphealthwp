@@ -23,7 +23,7 @@
 		<script src="js/skel-panels.min.js"></script>
 		<script src="js/init.js"></script>
 		<script src="js/recap.js"></script>
-		<script src="js/animation.js"></script>
+<!--		<script src="js/animation.js"></script> -->
 	</head>
 
 	<body class="homepage">
@@ -264,40 +264,37 @@
 							<ul class="advisorsCan">
 								<h5>Canadian Advisory board members</h5>
 								<li>
-									<p>Kip Woodward - <i>Chair Vancouver Coastal Health Authority</i></p>
+									<p><strong>Kip Woodward</strong> - <i>Chair Vancouver Coastal Health Authority</i></p>
 								</li>
 								<li>
-									<p>Graham Whitmarsh - <i>BC Deputy Health and Finance Minister</i></p>
+									<p><strong>Graham Whitmarsh</strong> - <i>BC Deputy Health and Finance Minister</i></p>
 								</li>
 								<li>
-									<p>Dale Tiessen - <i>GM, GE Healthcare</i></p>
+									<p><strong>Dale Tiessen</strong> - <i>GM, GE Healthcare</i></p>
 								</li>
 								<li>
-									<p>Ida Goodreau - <i>ex CEO LifeLabs, ex CEO Vancouver Coastal</i></p>
+									<p><strong>Ida Goodreau</strong> - <i>ex CEO LifeLabs, ex CEO Vancouver Coastal</i></p>
 								</li>
 								<li>
-									<p>John DeHart - <i>CEO NurseNextDoor</i></p>
+									<p><strong>John DeHart</strong> - <i>CEO NurseNextDoor</i></p>
 								</li>
 								<li>
-									<p>Alexandra Greenhill - <i>ex Pres. BCMA </i></p>
+									<p><strong>Alexandra Greenhill</strong> - <i>ex Pres. BCMA </i></p>
 								</li>
 								<li>
-									<p>Rebecca Palm - <i>Co Patient SVP M&A AthenaHealth</i></p>
+									<p><strong>James Tansey</strong> - <i>ED ISIS at UBC</i></p>
 								</li>
 								<li>
-									<p>James Tansey-<i>ED ISIS at UBC</i></p>
+									<p><strong>Bob Wilson</strong> - <i>Founder/CEO Wilson Banwell (EAP)</i></p>
 								</li>
 								<li>
-									<p>Bob Wilson - <i>Founder/CEO Wilson Banwell (EAP)</i></p>
+									<p><strong>Alex Kroon</strong> - <i>Ex CEO CMN/EuropAssist</i></p>
 								</li>
 								<li>
-									<p>Alex Kroon - <i>Ex CEO CMN/EuropAssist</i></p>
-								</li>
-								<li>
-									<p>Prateek Dwivedi - <i>MARS Health Lead and ex CIO Mt Sinai Hospital</i></p>
+									<p><strong>Prateek Dwivedi</strong> - <i>MARS Health Lead and ex CIO Mt Sinai Hospital</i></p>
 								</li>
 								<li>   
-									<p>Steve Johnson - <i>CRO, Hootsuite</i></p>
+									<p><strong>Steve Johnson</strong> - <i>CRO, Hootsuite</i></p>
 								</li>  
 							</ul>	
 						</div>
@@ -305,41 +302,44 @@
 							<ul class="advisorsUs">
 								<h5>US Advisory board members</h5>
 								<li>
-									<p>Robin Palley - <i> SVP Digitas</i></p>
+									<p><strong>Nicola Bridges</strong> - <i>SVP Sharecare</i></p>
 								</li>
 								<li>
-									<p>Karl Zachar - <i>SVP Epocrates, SVP AthenaHealth, Goldman Sachs</i><p>
-								</li> 
-								<li>
-									<p>Gary Stuart - <i>Executive Vice President at Emdeon Business Services</i></p>
-								</li>  
-								<li>
-									<p>Paul Sonnenschein - <i>Vice President, Strategic Accounts at Healthline Networks, Inc.</i></p>
-								</li>  
-								<li>
-									<p>Geoffrey Rutledge - <i>CEO Healthtap, former SVP WEBMD</i></p>
-								</li> 
-								<li>
-									<p>Steve Curd - <i>Ex CIO United Healthcare</i></p>
-								</li>  
-								<li>
-									<p>Nicola Bridges - <i>SVP Sharecare</i></p>
-								</li>
-								<li>
-									<p>Larry Logan - <i>Ex VP Marketing WebMD</i></p>
-								</li>   
-								<li>
-									<p>Dave Dickey - <i>Operations Executive at TPG Capital </i></p>
-								</li>  
-								<li>
-									<p>Bruce Springer - <i>CEO OneHealth</i></p>
-								</li>   
-								<li>
-									<p>John Danaher - <i>CEO Reed Elsevier</i></p>
-								</li>
-								<li>
-									<p>Graham Brooks - <i>MD .406 Ventures</i></p>
+									<p><strong>Graham Brooks</strong> - <i>Partner .406 Ventures</i></p>
 								</li>	
+								<li>
+									<p><strong>Steve Curd</strong> - <i>CEO CareinSync, ex-CIO United Healthcare</i></p>
+								</li>  
+								<li>
+									<p><strong>John Danaher</strong> - <i>President, Education, Elsevier at Reed Elsevier</i></p>
+								</li>
+								<li>
+									<p><strong>Dave Dickey</strong> - <i>Founder Redbrick</i></p>
+								</li>  
+								<li>
+									<p><strong>Larry Logan</strong> - <i>Ex VP Marketing WebMD</i></p>
+								</li>   
+								<li>
+									<p><strong>Robin Palley</strong> - <i> SVP Digitas</i></p>
+								</li>
+								<li>
+									<p><strong>Rebecca Palm</strong> - <i>Founder Co Patient SVP M&A AthenaHealth</i></p>
+								</li>
+								<li>
+									<p><strong>Geoffrey Rutledge</strong> - <i>CMO Healthtap, former SVP WEBMD</i></p>
+								</li> 
+								<li>
+									<p><strong>Paul Sonnenschein</strong> - <i>SVP at Healthline Networks, Inc.</i></p>
+								</li>  
+								<li>
+									<p><strong>Bruce Springer</strong> - <i>CEO OneHealth</i></p>
+								</li>   
+								<li>
+									<p><strong>Gary Stuart</strong> - <i>EVP Emdeon</i></p>
+								</li>  
+								<li>
+									<p><strong>Karl Zachar</strong> - <i>SVP Epocrates, SVP AthenaHealth, Goldman Sachs</i><p>
+								</li> 
 							</ul>
 						</div>			
 					</div> <!-- row -->
@@ -529,16 +529,13 @@
 							<section id="connect-social">
 								<div class="row">
 								<div class="4u feed">
-									<h3 class="social-header">Twitter / Linkedin</h3>
-									<h5>RecapHealth</h5>
-									<p>Support the scaling of innovative solutions to global challenges</p>
-									<span class="timestamp">16 Jun 2014 18:40 pm</span>
-									<h5>RecapHealth</h5>
-									<p>Support the scaling of innovative solutions to global challenges</p>
-									<span class="timestamp">16 Jun 2014 18:40 pm</span>
-									<h5>RecapHealth</h5>
-									<p>Support the scaling of innovative solutions to global challenges</p>
-									<span class="timestamp">16 Jun 2014 18:40 pm</span>
+									<?php 
+									include 'php_lib/TweetPHP.php'; 
+
+									$tweet = new TweetPHP();
+
+									echo $tweet->get_tweet_list();
+									?>
 								</div>	
 								<div class="4u followbox">
 									<ul class="icons">
