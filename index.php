@@ -50,9 +50,9 @@
 							<a href="#header" class="scrolly"><img src="images/recap-logo.png"/></a>
 						<ul>
 							<li><a href="#header" class="scrolly">Home</a></li>
+							<li><a href="#about-position" class="scrolly">About</a></li>
 							<li><a href="#vision" class="scrolly">Vision</a></li>
 							<li><a href="#team" class="scrolly">Team</a></li>
-							<li><a href="#about-position" class="scrolly">About</a></li>
 							<li><a href="#portfolio" class="scrolly">Portfolio</a></li>
 							<li><a href="#news" class="scrolly">News</a></li>
 							<li><a href="#contact" class="scrolly">Contact</a></li>
@@ -479,35 +479,6 @@
 								<?php include('php_lib/feeds.php'); ?>	
 							</article>	
 						</div>
-
-						<!-- <div class="6u">
-							<article class="news">
-								<a href="" target="_blank">
-									<h5>Medtronic and Covidien merger casts light on medical device purchasing trends</h5>
-									<span class="timestamp">MedCity News 16 Jun 2014 18:40 pm</span>
-								</a>
-								<p>Support the scaling of innovative solutions to global challenges</p>
-								<h6 class="read-more"><a href="">Read More...</a></h6>
-								<hr>
-
-								<a href="" target="_blank">
-									<h5>Medtronic and Covidien merger casts light on medical device purchasing trends</h5>
-									<span class="timestamp">MedCity News 16 Jun 2014 18:40 pm</span>
-								</a>
-								<p>Support the scaling of innovative solutions to global challenges</p>
-								<h6 class="read-more"><a href="">Read More...</a></h6>
-								<hr>
-
-								<a href="" target="_blank">
-									<h5>Medtronic and Covidien merger casts light on medical device purchasing trends</h5>
-									<span class="timestamp">MedCity News 16 Jun 2014 18:40 pm</span>
-								</a>
-								<p>Support the scaling of innovative solutions to global challenges</p>
-								<h6 class="read-more"><a href="">Read More...</a></h6>
-								<hr />
-
-							</article>	
-						</div> -->
 					</div>
 				</section>
 			</div>		
@@ -609,6 +580,5 @@
 
 				</div>
 			</div>
-
 	</body>
 </html>
