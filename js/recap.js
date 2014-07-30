@@ -20,13 +20,27 @@ var recap = {
 		blurb.siblings('.portfolio-extended').addClass('hidden');
     blurb.removeClass('hidden');
     
-    company.css('width', '100%');
-  }
+  },
+	contactForm: function() {
+		var name = $("#contact_name").val(),
+				email = $("#contact_email").val(),
+				msg		= $("#contact_message").val(),
+				formData = {name: name, email: email, message: msg},
+				form	= $(this);
 
+		$.post('/php_lib/mailer.php', formData, function(data) {
+				if (data.result) {
+					form.replaceWith('<h3>Thank you for reaching out. Someone will be in contact with you soon..</h3>');
+				}
+		}, 'json');
+
+		return false;
+	}
 };
 
 $(function() {
   $(".team-pic").hover(recap.teamShow, function() {});  
   $(".portfolio-item").hover(recap.portfolioShow, function() {});
+	$("#contactForm").on('submit', recap.contactForm);
 });
 

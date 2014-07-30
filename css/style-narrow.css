@@ -17,9 +17,30 @@
   overflow-x: scroll;
 }
 
+h5.team-swiper {
+  margin-top: 1em;
+  font-size: medium;
+  display: block;
+  font-weight: 100;
+}
+
 article.team-pic img {
   border-radius: .3em;
-  width: 90%;
+  width: 50%;
+}
+
+.team-pic a img {
+  float: left;
+}
+
+/*********************************************************************************/
+/*          Backgrounds                                                          */
+/*********************************************************************************/
+
+.bg1, 
+.bg2
+{
+  visibility: none;  
 }
 
 /*********************************************************************************/
@@ -33,6 +54,23 @@ article.team-pic img {
   margin-bottom: 1em;
   }
 
+  ul.advisorsCan
+  {
+    margin:0 0 8% 1%;
+  }
+
+  ul.advisorsUs
+  {
+  margin:2% 0 8% 1%;
+  }
+
+  ul.advisorsCan, ul.advisorsUs 
+  {
+    text-align: left;
+    float: none;
+    margin-bottom: 2%;
+  }
+
 
 /*********************************************************************************/
 /*          About                                                                 */
@@ -41,7 +79,7 @@ article.team-pic img {
   article .greensquare-right img,
   article .greensquare-left img
     {
-      max-width: 95%;
+      max-width: 80%;
     }
 
   article .greensquare-right,
