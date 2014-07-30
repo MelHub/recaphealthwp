@@ -1,4 +1,5 @@
 <?php
+/* Template information: functions.php */
 
 /**
  * Load theme options.

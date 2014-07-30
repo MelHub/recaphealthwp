@@ -1,4 +1,5 @@
 <!DOCTYPE HTML>
+<!-- Template name: landing page -->
 <html>
 	<head>
 		<title>RecapHealth Ventures</title>
